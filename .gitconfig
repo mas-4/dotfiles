@@ -1,0 +1,16 @@
+[user]
+	name = malan88
+	email = malan88@standingwater.io
+[core]
+	editor = nvim
+	excludesfile = /home/malan/.gitinore_global
+[alias]
+	graph = log --oneline --decorate --graph --all
+	s = status
+	amend = commit
+	co = checkout
+    ec = config --global -e
+	ctags = !.git/hooks/ctags
+	push = push
+[init]
+	templatedir = ~/.git_template

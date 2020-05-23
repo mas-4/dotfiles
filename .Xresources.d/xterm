@@ -1,0 +1,9 @@
+Xterm.vt100.locale:		        true
+Xterm.vt100.metaSendsEscape:	true
+XTerm.vt100.faceName:           font_face:size=font_size:antialias=true
+XTerm.termName:                 xterm-256color
+
+xterm*VT100.Translations: #override \
+                 Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+                 Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
+

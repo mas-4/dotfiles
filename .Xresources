@@ -1,0 +1,43 @@
+! special
+*.foreground:   #f706cf
+*.background:   #241734
+*.cursorColor:  #f706cf
+
+! black
+*.color0:       #0d0221
+*.color8:       #bdcfd8
+
+! red
+*.color1:       #e10036
+*.color9:       #d40078
+
+! green
+*.color2:       #66ff99
+*.color10:      #4dc8bb
+
+! yellow
+*.color3:       #29b8b2
+*.color11:      #f9c80e
+
+! blue
+*.color4:       #4d2991
+*.color12:      #541388
+
+! magenta
+*.color5:       #7f10ad
+*.color13:      #ff00ff
+
+! cyan
+*.color6:       #2de2e6
+*.color14:      #4dc8bb
+
+! white
+*.color7:       #125b5c
+*.color15:      #f0ead6
+
+#define     font_face   Hack
+#define     font_size   14
+
+#include    ".Xresources.d/xterm"
+#include    ".Xresources.d/urxvt"
+#include    ".Xresources.d/rofi"

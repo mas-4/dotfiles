@@ -1,0 +1,3 @@
+URxvt*foreground: #cccccc
+URxvt*background: #222222
+URxvt.font: Hack
