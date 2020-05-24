@@ -40,7 +40,7 @@ bindsym $mod+Return exec xterm
 bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher)
-bindsym $mod+d exec rofi -show run -font "Hack 11"
+bindsym $mod+d exec rofi -show drun
 
 # change focus
 bindsym $mod+h focus left
@@ -165,5 +165,5 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 bindsym $mod+t exec --no-startup-id compton --config ~/.config/compton/compton.conf --backend glx --blur-method kawase  --blur-background --blur-strength 20
-exec_always --no-startup-id compton --config ~/.config/compton/compton.conf --backend glx --blur-method kawase  --blur-background --blur-strength 20
+exec --no-startup-id compton --config ~/.config/compton/compton.conf --backend glx --blur-method kawase  --blur-background --blur-strength 20
 exec_always --no-startup-id  $HOME/.config/polybar/launch.sh
