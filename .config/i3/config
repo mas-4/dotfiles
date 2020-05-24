@@ -165,5 +165,5 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 
-exec --no-startup-id "compton --config ~/.config/compton/compton.conf"
+exec --no-startup-id "picom --experimental-backends --backend glx --config ~/.config/picom/picom.conf"
 exec_always --no-startup-id  $HOME/.config/polybar/launch.sh
