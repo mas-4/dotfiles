@@ -40,4 +40,3 @@
 
 #include    ".Xresources.d/xterm"
 #include    ".Xresources.d/urxvt"
-#include    ".Xresources.d/rofi"
