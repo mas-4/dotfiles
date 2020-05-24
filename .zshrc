@@ -25,17 +25,6 @@ fi
 PATH="$HOME/.node_modules/bin:$PATH"
 export npm_config_prefix=~/.node_modules
 
-##################
-## # Cold open! ##
-##################
-echo "The password store gpg-id file contains:"
-cat ~/.password-store/.gpg-id
-fortune -s
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
 plugins=(
   vi-mode
   git
@@ -47,7 +36,6 @@ plugins=(
 export KEYTIMEOUT=1
 bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
-
 
 # User configuration
 
