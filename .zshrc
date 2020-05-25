@@ -19,7 +19,7 @@ if [[ $TERM == "putty" ]]; then
 elif [[ $TERM == "linux" ]]; then
     ZSH_THEME="af-magic"
 else
-    ZSH_THEME="agnoster"
+    ZSH_THEME="robbyrussell"
 fi
 
 PATH="$HOME/.node_modules/bin:$PATH"
