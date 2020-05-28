@@ -11,14 +11,7 @@ then
     . ~/.keychain/$HOST-sh > /dev/null
 fi
 
-# Likewise for ssh connections to the laptop (putty)
-if [[ $TERM == "putty" ]]; then
-    ZSH_THEME="af-magic"
-elif [[ $TERM == "linux" ]]; then
-    ZSH_THEME="af-magic"
-else
-    ZSH_THEME="robbyrussell"
-fi
+ZSH_THEME="robbyrussell"
 
 PATH="$HOME/.node_modules/bin:$PATH"
 export npm_config_prefix=~/.node_modules
