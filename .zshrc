@@ -5,12 +5,10 @@ export HISTORY_IGNORE='(bg|fg|c|ls|pwd|history|exit|make*|* --help)'
 export PASSWORD_STORE_ENABLE_EXTENSIONS=true
 export ZSH="/home/malan/.oh-my-zsh"
 
-# Start ssh-agent
-if ! pgrep -u "$USER" ssh-agent > /dev/null; then
-    ssh-agent > "$XDG_RUNTIME_DIR/ssh-agent.env"
-fi
-if [[ ! "$SSH_AUTH_SOCK" ]]; then
-    eval "$(<"$XDG_RUNTIME_DIR/ssh-agent.env")"
+if [[ -f ~/.keychain/$HOST-sh ]] && [[ $UID != "0" ]]
+then
+    keychain ~/.ssh/id_dsa
+    . ~/.keychain/$HOST-sh > /dev/null
 fi
 
 # Likewise for ssh connections to the laptop (putty)
