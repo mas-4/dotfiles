@@ -7,9 +7,12 @@ export PASSWORD_STORE_ENABLE_EXTENSIONS=true
 export ZSH="/home/malan/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 
+# This makes it so I can install npm modules "globally" which just means in my
+# home directory. No conflicts with pacman, and no bullshit with aur
 PATH="$HOME/.node_modules/bin:$PATH"
 export npm_config_prefix=~/.node_modules
 
+# plugins
 plugins=(
   vi-mode
   git
@@ -18,6 +21,7 @@ plugins=(
   command-not-found
 )
 
+# History substring search
 export KEYTIMEOUT=1
 bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
