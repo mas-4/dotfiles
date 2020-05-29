@@ -1,5 +1,6 @@
 # Environment variables
 export EDITOR=/bin/nvim
+export BROWSER=firefox
 export CITY='Tarpon Springs'
 export HISTORY_IGNORE='(bg|fg|c|ls|pwd|history|exit|make*|* --help)'
 export PASSWORD_STORE_ENABLE_EXTENSIONS=true
