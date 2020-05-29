@@ -12,5 +12,3 @@
     ec = config --global -e
 	ctags = !.git/hooks/ctags
 	push = push
-[init]
-	templatedir = ~/.git_template
