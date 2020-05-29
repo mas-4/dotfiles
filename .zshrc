@@ -5,13 +5,6 @@ export CITY='Tarpon Springs'
 export HISTORY_IGNORE='(bg|fg|c|ls|pwd|history|exit|make*|* --help)'
 export PASSWORD_STORE_ENABLE_EXTENSIONS=true
 export ZSH="/home/malan/.oh-my-zsh"
-
-if [[ -f ~/.keychain/$HOST-sh ]] && [[ $UID != "0" ]]
-then
-    keychain ~/.ssh/id_dsa
-    . ~/.keychain/$HOST-sh > /dev/null
-fi
-
 ZSH_THEME="robbyrussell"
 
 PATH="$HOME/.node_modules/bin:$PATH"
