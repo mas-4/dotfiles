@@ -1,39 +1,39 @@
 ! special
-*.foreground:   #f706cf
-*.background:   #241734
-*.cursorColor:  #f706cf
+*.foreground:   #ffffff
+*.background:   #3c3b6e
+*.cursorColor:  #ffffff
 
 ! black
-*.color0:       #0d0221
-*.color8:       #bdcfd8
+*.color0:       #21203c
+*.color8:       #000000
 
 ! red
-*.color1:       #e10036
-*.color9:       #d40078
+*.color1:       #d9293f
+*.color9:       #7b1724
 
 ! green
-*.color2:       #66ff99
-*.color10:      #4dc8bb
+*.color2:       #02a276
+*.color10:      #015941
 
 ! yellow
-*.color3:       #29b8b2
-*.color11:      #f9c80e
+*.color3:       #ceb888
+*.color11:      #7d4802
 
 ! blue
-*.color4:       #4d2991
-*.color12:      #541388
+*.color4:       #007cc2
+*.color12:      #0021a5
 
 ! magenta
-*.color5:       #7f10ad
-*.color13:      #ff00ff
+*.color5:       #f98dc9
+*.color13:      #f765b8
 
 ! cyan
-*.color6:       #2de2e6
-*.color14:      #4dc8bb
+*.color6:       #27fdf5
+*.color14:      #a8f6f8
 
 ! white
-*.color7:       #125b5c
-*.color15:      #f0ead6
+*.color7:       #d0d0d0
+*.color15:      #979797
 
 #define     font_face   Hack
 #define     font_size   14
