@@ -26,13 +26,13 @@ secondary = #e60053
 alert = #bd2c40
 
 [bar/main]
-monitor = ${env:MONITOR:DP-0}
-monitor-fallback =  ${env:MONITOR:LVDS-1}
+;monitor = ${env:MONITOR:DP-0}
+;monitor-fallback =  ${env:MONITOR:LVDS-1}
 width = 100%
 height = 27
 ;offset-x = 1%
 ;offset-y = 1%
-radius = 6.0
+;radius = 6.0
 fixed-center = false
 
 background = ${colors.background}
@@ -49,11 +49,12 @@ module-margin-right = 2
 
 font-0 = Hack:style=Regular:pixelsize=14
 font-1 = Font Awesome 5 Free,Font Awesome 5 Free Solid:style=Solid:pixelsize=14
-font-3 = Meslo LG L:style=Regular
+font-3 = Material Icons:style=Regular
 
 modules-left = bspwm i3
 ;modules-center = mpd
-modules-right = filesystem xbacklight alsa xkeyboard memory cpu wlan eth battery temperature date powermenu
+; modules-right = filesystem xbacklight alsa xkeyboard memory cpu wlan eth battery temperature date powermenu
+modules-right = alsa filesystem xbacklight memory cpu wlan eth battery temperature date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -131,6 +132,17 @@ format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
 
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-5 = 6;
+ws-icon-6 = 7;
+ws-icon-7 = 8;
+ws-icon-8 = 9;
+ws-icon-default = 
+
 ; Only show workspaces on the same output as the bar
 ;pin-workspaces = true
 
@@ -150,6 +162,7 @@ label-unfocused-padding = 2
 
 ; visible = Active workspace on unfocused monitor
 label-visible = %index%
+;label-visible = %icon%
 label-visible-background = ${self.label-focused-background}
 label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
@@ -256,7 +269,7 @@ format-disconnected =
 type = internal/date
 interval = 5
 
-date = " %Y-%m-%d"
+date = "%A, %B %e"
 date-alt = " %Y-%m-%d"
 
 time = %I:%M:%S
@@ -266,7 +279,7 @@ format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
-label = %date%  %time%
+label =  %date%  %time%
 
 [module/pulseaudio]
 type = internal/pulseaudio
