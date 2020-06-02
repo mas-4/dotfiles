@@ -15,21 +15,12 @@ Plugin 'nvie/vim-flake8'                    " pep8 linter
 Plugin 'ntpeters/vim-better-whitespace'     " better whitespace detection
 Plugin 'scrooloose/nerdtree'                " screw it, nerdtree
 Plugin 'christoomey/vim-tmux-navigator'     " Navigate tmux sessions with vim panes
-Plugin 'losingkeys/vim-niji'                " rainbow parentheses for lisp
-Plugin 'sjl/tslime.vim'                     " tslime for repl ide feel
-Plugin 'vim-scripts/paredit.vim'            " paredit for parentheses thingies
+Plugin 'MaxMEllon/vim-jsx-pretty'           " jsx syntax
 call vundle#end()            " required
 
-autocmd filetype lisp,scheme,art setlocal equalprg=scmindent.rkt    " better lisp indenting
+" autocmd filetype lisp,scheme,art setlocal equalprg=scmindent.rkt    " better lisp indenting
 " let mapleader = ","
-let maplocalleader="\,"
-
-" tslime {{{
-let g:tslime_ensure_trailing_newlines = 1
-let g:tslime_normal_mapping = '<localleader>t'
-let g:tslime_visual_mapping = '<localleader>t'
-let g:tslime_vars_mapping = '<localleader>T'
-" }}}
+" let maplocalleader="\,"
 
 
 " syntax higlighting
@@ -101,9 +92,10 @@ inoremap <F1> <nop>
 vnoremap <F1> <nop>
 
 " macros
+
+" comment macro
 let @c = "I## \<Esc>A ##\<Esc>yyPVr#jpVr#"
-let @d = ':set syntax=markdownG:r!dateOjyypVr-o- '
-let @m = ':set syntax=markdown'
+" macro to join all lines in a file
 let @j = ':g/^./ .,/^$/-1 join'
 
 iabbrev beginargparse import sys
