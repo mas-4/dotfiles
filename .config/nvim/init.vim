@@ -16,6 +16,7 @@ Plugin 'ntpeters/vim-better-whitespace'     " better whitespace detection
 Plugin 'scrooloose/nerdtree'                " screw it, nerdtree
 Plugin 'christoomey/vim-tmux-navigator'     " Navigate tmux sessions with vim panes
 Plugin 'MaxMEllon/vim-jsx-pretty'           " jsx syntax
+Plugin 'jparise/vim-graphql'                " graphql syntax
 call vundle#end()            " required
 
 " autocmd filetype lisp,scheme,art setlocal equalprg=scmindent.rkt    " better lisp indenting
