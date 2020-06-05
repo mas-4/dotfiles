@@ -1,2 +1,4 @@
 = Vimwiki DB =
     * [[Tasks]]
+    * [[Ideas]]
+    * [[Passages]]
