@@ -6,4 +6,4 @@
 [description:"Finish templates\/blog slugs" entry:"1591317680" modified:"1591317680" project:"job" status:"pending" uuid:"ac7521bb-0983-43ff-ab7b-2af040cc3c98"]
 [description:"Theme the damn thing" entry:"1591317680" modified:"1591317680" project:"job" status:"pending" uuid:"107c45db-a39d-4d74-8b88-b7ed8c63ed8f"]
 [description:"Netlify it\/set up domain\/link up" entry:"1591317680" modified:"1591317680" project:"job" status:"pending" uuid:"df741cc5-8038-479c-8439-bc414a5cb5aa"]
-[description:"Write Twilio script to bug someone to register to vote" entry:"1591318830" modified:"1591318830" project:"Personal" status:"pending" uuid:"bb63fffc-c847-4c98-bfe8-a0e750b363e1"]
+[description:"Write Twilio script to bug someone to register to vote" entry:"1591318830" modified:"1591374057" project:"personal" status:"pending" uuid:"bb63fffc-c847-4c98-bfe8-a0e750b363e1"]
