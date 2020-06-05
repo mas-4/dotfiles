@@ -8,7 +8,7 @@ set rtp+=~/.nvim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'               " vundle itself
 Plugin 'ervandew/supertab'                  " supertab
-Plugin 'tpope/vim-surround'                 " vim surround for changing surrounding things
+Plugin 'machakann/vim-sandwich'             " new vim surround
 Plugin 'tpope/vim-fugitive'                 " git integration
 Plugin 'Vimjas/vim-python-pep8-indent'      " pep8 indenting
 Plugin 'nvie/vim-flake8'                    " pep8 linter
@@ -18,7 +18,11 @@ Plugin 'christoomey/vim-tmux-navigator'     " Navigate tmux sessions with vim pa
 Plugin 'MaxMEllon/vim-jsx-pretty'           " jsx syntax
 Plugin 'jparise/vim-graphql'                " graphql syntax
 Plugin 'jiangmiao/auto-pairs'               " auto closing
-call vundle#end()            " required
+Plugin 'yegappan/grep'                      " grep
+Plugin 'vimwiki/vimwiki'                    " vimwiki
+Plugin 'bling/vim-airline'                  " airline
+Plugin 'tbabej/taskwiki'                    " taskwiki
+call vundle#end()                           " required
 
 " autocmd filetype lisp,scheme,art setlocal equalprg=scmindent.rkt    " better lisp indenting
 " let mapleader = ","
