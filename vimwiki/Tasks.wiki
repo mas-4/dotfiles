@@ -1,6 +1,7 @@
 == Personal tasks | project:personal ==
 * [X] Investigate git and taskwarrior integration with vimwiki  #8766116b
 * [X] Finish vimwiki tutorial  #100694da
+* [ ] Write Twilio script to bug someone to register to vote  #bb63fffc
 
 == Job tasks | project:job ==
 * [ ] Finish blog.standingwater.io  #4b4d28dd
