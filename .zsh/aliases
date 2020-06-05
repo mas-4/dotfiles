@@ -1,0 +1,55 @@
+###################
+## sys overrides ##
+###################
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rmdir='rmdir -v'
+alias ln='ln -v'
+alias ls='ls --color=auto --group-directories-first -Fh'
+alias grep='grep --color=auto'
+
+########
+## ls ##
+########
+alias ll='ls -hAlF'
+alias lt='ls -clt'
+
+########################
+## other sys commands ##
+########################
+# one letter commands
+alias c='clear'
+alias l='ls'
+alias se='sudoedit'
+alias v='source ./venv/bin/activate'
+alias h='history | grep'    # Use like, "h ssh" to see all ssh in your history
+alias hd='fc -li 1'
+
+##################
+## git commands ##
+##################
+alias gpm='git pull master'
+alias gcm='git checkout master'
+alias gs='git status'
+alias gd='git diff'
+alias gitdiff='git difftool -y -x "colordiff -y -W $COLUMNS" | less -R'
+alias gg='git graph'
+alias glnp='git --no-pager log --oneline -n30'
+alias gitlp='git log --pretty=format:"%Cred%h %Cgreen %cd %Cblue%<(14,trunc)%an %Creset %s %Cred %d %Creset" --graph --date=short -20'
+
+###################################
+## overrides for system defaults ##
+###################################
+alias gcc='gcc -Wall -Werror'
+alias python='python3'
+alias ipython='ipython3'
+
+############
+## tricks ##
+############
+alias changedfiles="find . -type f -print0 | xargs -0 stat --format '%Z :%z %n' | sort -nr | cut -d: -f2- | head -n 20"
+alias rot13="tr 'a-zA-Z' 'n-za-mN-ZA-M'"
+alias linecount='find . -type f -print0 | wc -l --files0-from=-'
+alias histstats="history | awk '{CMD[\$2]++;count++;}END { for (a in CMD)print CMD[a] \" \" CMD[a]/count*100 \"% \" a;}' | grep -v './' | column -c3 -s ' ' -t | sort -nr | nl |  head -n10"
+alias weather='curl wttr.in/$CITY'
+alias shrug='echo -n "¯\_(ツ)_/¯" | xclip -selection clipboard && echo "\"¯\_(ツ)_/¯\" copied to clipboard!"'
