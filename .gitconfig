@@ -14,3 +14,5 @@
 	push = push
 [pull]
 	rebase = true
+[url "git@github.com:malan88/"]
+    insteadOf = me:
