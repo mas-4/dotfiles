@@ -1,6 +1,9 @@
 " disable highlight after higlight search
 nmap <C-C> :noh<CR>
 
+" disable ex mode
+:map Q <Nop>
+
 " toggle between numbering systems when necessary
 nmap <F3> :exec &nu==&rnu? "se nu!" : "se rnu!"<CR>
 
