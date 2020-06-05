@@ -2,8 +2,6 @@
 filetype plugin indent on
 syntax enable
 
-set nocompatible                    " be iMproved, required
-
 " miscellaneous
 set mouse=a                         " mouse is usable
 set showmatch                       " show matching pairs of braces, etc.

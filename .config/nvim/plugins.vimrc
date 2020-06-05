@@ -1,8 +1,13 @@
+" These two are "required" by Vundle per the docs but IDK why
+set nocompatible                " be iMproved, required by Vundle
+filetype off                    " required by Vundle
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.nvim/bundle/Vundle.vim
 
 " vundle plugins
 call vundle#begin()
+
 Plugin 'VundleVim/Vundle.vim'               " vundle itself
 Plugin 'ervandew/supertab'                  " supertab
 Plugin 'machakann/vim-sandwich'             " new vim surround
@@ -18,5 +23,7 @@ Plugin 'jiangmiao/auto-pairs'               " auto closing
 Plugin 'yegappan/grep'                      " grep
 Plugin 'vimwiki/vimwiki'                    " vimwiki
 Plugin 'bling/vim-airline'                  " airline
+Plugin 'vim-airline/vim-airline-themes'     " airline themes
 Plugin 'tbabej/taskwiki'                    " taskwiki
+
 call vundle#end()                           " required
