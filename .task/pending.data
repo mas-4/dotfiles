@@ -2,4 +2,7 @@
 [description:"Write a second post (FOSS as High Culture)" entry:"1591315424" modified:"1591315424" project:"job" status:"pending" uuid:"e40ae679-00ea-446c-a7b5-6a2838a010c8"]
 [description:"Complete more hackerrank" entry:"1591315424" modified:"1591315424" project:"job" status:"pending" uuid:"5322eb0e-a64c-41ee-808a-512ee01f3f17"]
 [description:"complete more kaggle" entry:"1591315424" modified:"1591315424" project:"job" status:"pending" uuid:"10ae331c-b3f2-4e05-a05f-a3bf5958a547"]
-[depends:"7cafdcdd-c372-4b74-a439-bb910c0c13f8,e40ae679-00ea-446c-a7b5-6a2838a010c8" description:"Finish blog.standingwater.io" entry:"1591315424" modified:"1591315424" project:"job" status:"pending" uuid:"4b4d28dd-8c0d-4344-8e8f-4b8323940af4"]
+[depends:"7cafdcdd-c372-4b74-a439-bb910c0c13f8,e40ae679-00ea-446c-a7b5-6a2838a010c8,df741cc5-8038-479c-8439-bc414a5cb5aa,ac7521bb-0983-43ff-ab7b-2af040cc3c98,107c45db-a39d-4d74-8b88-b7ed8c63ed8f" description:"Finish blog.standingwater.io" entry:"1591315424" modified:"1591317680" project:"job" status:"pending" uuid:"4b4d28dd-8c0d-4344-8e8f-4b8323940af4"]
+[description:"Finish templates\/blog slugs" entry:"1591317680" modified:"1591317680" project:"job" status:"pending" uuid:"ac7521bb-0983-43ff-ab7b-2af040cc3c98"]
+[description:"Theme the damn thing" entry:"1591317680" modified:"1591317680" project:"job" status:"pending" uuid:"107c45db-a39d-4d74-8b88-b7ed8c63ed8f"]
+[description:"Netlify it\/set up domain\/link up" entry:"1591317680" modified:"1591317680" project:"job" status:"pending" uuid:"df741cc5-8038-479c-8439-bc414a5cb5aa"]

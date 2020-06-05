@@ -1,9 +1,12 @@
 == Personal tasks | project:personal ==
-* [ ] Investigate git and taskwarrior integration with vimwiki  #8766116b
-* [ ] Finish vimwiki tutorial  #100694da
+* [X] Investigate git and taskwarrior integration with vimwiki  #8766116b
+* [X] Finish vimwiki tutorial  #100694da
 
 == Job tasks | project:job ==
 * [ ] Finish blog.standingwater.io  #4b4d28dd
+    * [ ] Finish templates/blog slugs  #ac7521bb
+    * [ ] Theme the damn thing  #107c45db
+    * [ ] Netlify it/set up domain/link up  #df741cc5
     * [ ] Write a first post  #7cafdcdd
     * [ ] Write a second post (FOSS as High Culture)  #e40ae679
 * [ ] Complete more hackerrank  #5322eb0e

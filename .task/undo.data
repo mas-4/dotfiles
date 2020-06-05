@@ -41,3 +41,16 @@ time 1591315503
 old [description:"Finish vimwiki tutorial" entry:"1591315424" modified:"1591315424" project:"personal" status:"pending" uuid:"100694da-f41a-47e9-aa3b-162872d2e4a1"]
 new [description:"Finish vimwiki tutorial" end:"1591315503" entry:"1591315424" modified:"1591315503" project:"personal" status:"completed" uuid:"100694da-f41a-47e9-aa3b-162872d2e4a1"]
 ---
+time 1591317680
+new [description:"Finish templates\/blog slugs" entry:"1591317680" modified:"1591317680" project:"job" status:"pending" uuid:"ac7521bb-0983-43ff-ab7b-2af040cc3c98"]
+---
+time 1591317680
+new [description:"Theme the damn thing" entry:"1591317680" modified:"1591317680" project:"job" status:"pending" uuid:"107c45db-a39d-4d74-8b88-b7ed8c63ed8f"]
+---
+time 1591317680
+new [description:"Netlify it\/set up domain\/link up" entry:"1591317680" modified:"1591317680" project:"job" status:"pending" uuid:"df741cc5-8038-479c-8439-bc414a5cb5aa"]
+---
+time 1591317680
+old [depends:"7cafdcdd-c372-4b74-a439-bb910c0c13f8,e40ae679-00ea-446c-a7b5-6a2838a010c8" description:"Finish blog.standingwater.io" entry:"1591315424" modified:"1591315424" project:"job" status:"pending" uuid:"4b4d28dd-8c0d-4344-8e8f-4b8323940af4"]
+new [depends:"7cafdcdd-c372-4b74-a439-bb910c0c13f8,e40ae679-00ea-446c-a7b5-6a2838a010c8,df741cc5-8038-479c-8439-bc414a5cb5aa,ac7521bb-0983-43ff-ab7b-2af040cc3c98,107c45db-a39d-4d74-8b88-b7ed8c63ed8f" description:"Finish blog.standingwater.io" entry:"1591315424" modified:"1591317680" project:"job" status:"pending" uuid:"4b4d28dd-8c0d-4344-8e8f-4b8323940af4"]
+---
