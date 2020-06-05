@@ -1,6 +1,0 @@
-= vimwiki db =
-    * [[tasks]]
-    * [[ideas]]
-    * [[passages]]
-    * [[notes]]
-    * [[reviews]]
