@@ -1,4 +1,4 @@
-for f in ~/.zsh/*; do source $f; done
+for f in ~/.zsh.d/*; do source $f; done
 
 ZSH_THEME="robbyrussell"
 
