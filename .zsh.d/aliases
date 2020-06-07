@@ -29,8 +29,8 @@ alias hd='fc -li 1'
 ##########
 alias y='yadm'
 alias ys='y s'
-alias yp='y pull'
-alias yl='y push'
+alias yl='y pull'
+alias yp='y push'
 alias ya='y add'
 alias yc='y commit --verbose'
 
