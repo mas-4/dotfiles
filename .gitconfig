@@ -7,11 +7,11 @@
 [alias]
 	graph = log --oneline --decorate --graph --all
 	s = status
-	amend = commit
 	co = checkout
     ec = config --global -e
 	ctags = !.git/hooks/ctags
-	push = push
+    dc = diff --cached 
+    ds = diff --staged 
 [pull]
 	rebase = true
 [url "git@github.com:malan88/"]
