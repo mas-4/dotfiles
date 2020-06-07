@@ -3,20 +3,26 @@ call plug#begin('~/.vim/plugged')
 " CoC
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Extra syntax
+Plug 'styled-components/vim-styled-components'    " Styled components
+Plug 'MaxMEllon/vim-jsx-pretty'                   " jsx syntax
+Plug 'jparise/vim-graphql'                        " graphql syntax
+
+
 " Fuzzy Finder (control-p)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+" Simple functionality improvements
 Plug 'machakann/vim-sandwich'
 Plug 'christoomey/vim-tmux-navigator'
 
 " Nerdtree stuff
 Plug 'scrooloose/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'              
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 Plug 'tpope/vim-fugitive'
 
+" Vimwiki
 Plug 'vimwiki/vimwiki'
 Plug 'tbabej/taskwiki'
 
