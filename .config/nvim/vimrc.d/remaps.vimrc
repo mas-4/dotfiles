@@ -18,11 +18,11 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+nmap <C-n> :NERDTreeToggle<CR>
 
 " In insert or command mode, move normally by using Ctrl
 inoremap <C-h> <Left>
-inoremap <C-j> <Down>
-inoremap <C-k> <Up>
 inoremap <C-l> <Right>
 
-nmap <C-n> :NERDTreeToggle<CR>
+
+nnoremap <Leader>r :source $MYVIMRC<CR>
