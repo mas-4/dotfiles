@@ -1,42 +1,10 @@
-! special
-*.foreground:   #f706cf
-*.background:   #241734
-*.cursorColor:  #f706cf
+! Import colors
+#include    ".Xresources.d/colors"
 
-! black
-*.color0:       #0d0221
-*.color8:       #0d0221
-
-! red
-*.color1:       #d40078
-*.color9:       #d40078
-
-! green
-*.color2:       #66ff99
-*.color10:      #66ff99
-
-! yellow
-*.color3:       #f9c80e
-*.color11:      #f9c80e
-
-! blue
-*.color4:       #5e20d5
-*.color12:      #5e20d5
-
-! magenta
-*.color5:       #9f14d9
-*.color13:      #9f14d9
-
-! cyan
-*.color6:       #2de2e6
-*.color14:      #2de2e6
-
-! white
-*.color7:       #29b8b2
-*.color15:      #29b8b2
-
+! Define fonts
 #define     font_face   Hack
 #define     font_size   14
 
+! Import xterm/urxvt settings
 #include    ".Xresources.d/xterm"
 #include    ".Xresources.d/urxvt"
