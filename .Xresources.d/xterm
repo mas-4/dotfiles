@@ -1,8 +1,20 @@
+! Set locale based on system
 Xterm.vt100.locale:		        true
+
+! Makes alt behave like other terminals
 Xterm.vt100.metaSendsEscape:	true
+
+! Font stuff
 XTerm.vt100.faceName:           font_face:size=font_size:antialias=true
+
+! Report $TERM correctly
 XTerm.termName:                 xterm-256color
 
+! This fixes the ^H = <BS> problem breaking vim navigation
+XTerm.vt100.backarrowKey: false
+XTerm.ttyModes: erase ^?
+
+! This makes some translations for the clipboard
 xterm*VT100.Translations: #override \
                  Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
                  Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
