@@ -31,5 +31,6 @@ let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
 
-" Set the theme
-let g:airline_theme='luna'
+" Set the theme (these are my 2 favorites)
+let g:airline_theme='atomic'
+" let g:airline_theme='tomorrow'
