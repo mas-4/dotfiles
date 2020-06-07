@@ -1,41 +1,31 @@
-" These two are "required" by Vundle per the docs but IDK why
-set nocompatible                " be iMproved, required by Vundle
-filetype off                    " required by Vundle
+call plug#begin('~/.vim/plugged')
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.nvim/bundle/Vundle.vim
+" CoC
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" vundle plugins
-call vundle#begin()
+" Fuzzy Finder (control-p)
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
-Plugin 'VundleVim/Vundle.vim'                       " vundle itself
+Plug 'machakann/vim-sandwich'
+Plug 'christoomey/vim-tmux-navigator'
 
-" Autocomplete and text functionality
-Plugin 'ervandew/supertab'                          " supertab
-Plugin 'jiangmiao/auto-pairs'                       " auto closing
-Plugin 'machakann/vim-sandwich'                     " new vim surround
+" Nerdtree stuff
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'              
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
-" Syntax
-Plugin 'Vimjas/vim-python-pep8-indent'              " pep8 indenting
-Plugin 'nvie/vim-flake8'                            " pep8 linter
-Plugin 'ntpeters/vim-better-whitespace'             " better whitespace detection
-Plugin 'styled-components/vim-styled-components'    " Styled components
-Plugin 'MaxMEllon/vim-jsx-pretty'                   " jsx syntax
-Plugin 'jparise/vim-graphql'                        " graphql syntax
+Plug 'tpope/vim-fugitive'
 
-" Integrations, navigation
-Plugin 'scrooloose/nerdtree'                        " screw it, nerdtree
-Plugin 'tpope/vim-fugitive'                         " git integration
-Plugin 'yegappan/grep'                              " grep
-Plugin 'christoomey/vim-tmux-navigator'             " Navigate tmux sessions with vim panes
+Plug 'vimwiki/vimwiki'
+Plug 'tbabej/taskwiki'
 
-" vimwiki
-Plugin 'vimwiki/vimwiki'                            " vimwiki
-Plugin 'tbabej/taskwiki'                            " taskwiki
+" Airline
+Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
-" bling
-Plugin 'bling/vim-airline'                          " airline
-Plugin 'vim-airline/vim-airline-themes'             " airline themes
+call plug#end()
 
 
-call vundle#end()                           " required
+" Separate coc plugins into another file, call it here
+source $HOME/.config/nvim/vimrc.d/coc.plugins.vimrc
