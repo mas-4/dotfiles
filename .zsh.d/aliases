@@ -13,17 +13,27 @@ alias grep='grep --color=auto'
 ########
 alias ll='ls -hAlF'
 alias lt='ls -clt'
+alias l='ls'
 
 ########################
 ## other sys commands ##
 ########################
 # one letter commands
 alias c='clear'
-alias l='ls'
 alias se='sudoedit'
-alias v='source ./venv/bin/activate'
 alias h='history | grep'    # Use like, "h ssh" to see all ssh in your history
 alias hd='fc -li 1'
+
+############
+## Python ##
+############
+
+alias venv='python -m venv .venv'
+alias v='source ./.venv/bin/activate'
+alias pu='pip install --upgrade pip'
+alias pi='pip install'
+alias pupgradeall='pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U'
+alias newvenv='venv && v && pu && pi neovim'
 
 ##################
 ## git commands ##
