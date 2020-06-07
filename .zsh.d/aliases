@@ -24,43 +24,42 @@ alias se='sudoedit'
 alias h='history | grep'    # Use like, "h ssh" to see all ssh in your history
 alias hd='fc -li 1'
 
+##########
+## yadm ##
+##########
+alias y='yadm'
+alias ys='y s'
+alias yp='y pull'
+alias yl='y push'
+alias ya='y add'
+alias yc='y commit --verbose'
+
 ############
 ## Python ##
 ############
-
 alias venv='python -m venv .venv'
 alias v='source ./.venv/bin/activate'
 alias pu='pip install --upgrade pip'
 alias pi='pip install'
 alias pupgradeall='pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U'
-alias newvenv='venv && v && pu && pi neovim'
-
-##################
-## git commands ##
-##################
-alias gpm='git pull master'
-alias gcm='git checkout master'
-alias gs='git status'
-alias gd='git diff'
-alias gitdiff='git difftool -y -x "colordiff -y -W $COLUMNS" | less -R'
-alias gg='git graph'
-alias glnp='git --no-pager log --oneline -n30'
-alias gitlp='git log --pretty=format:"%Cred%h %Cgreen %cd %Cblue%<(14,trunc)%an %Creset %s %Cred %d %Creset" --graph --date=short -20'
+alias newvenv='venv && v && pu && pi neovim jedi'
 
 ###################################
 ## overrides for system defaults ##
 ###################################
 alias gcc='gcc -Wall -Werror'
-alias python='python3'
-alias ipython='ipython3'
 
 ############
 ## tricks ##
 ############
+
+# simple utilities
 alias changedfiles="find . -type f -print0 | xargs -0 stat --format '%Z :%z %n' | sort -nr | cut -d: -f2- | head -n 20"
-alias rot13="tr 'a-zA-Z' 'n-za-mN-ZA-M'"
-alias linecount='find . -type f -print0 | wc -l --files0-from=-'
-alias histstats="history | awk '{CMD[\$2]++;count++;}END { for (a in CMD)print CMD[a] \" \" CMD[a]/count*100 \"% \" a;}' | grep -v './' | column -c3 -s ' ' -t | sort -nr | nl |  head -n10"
-alias weather='curl wttr.in/$CITY'
-alias shrug='echo -n "¯\_(ツ)_/¯" | xclip -selection clipboard && echo "\"¯\_(ツ)_/¯\" copied to clipboard!"'
 alias dtouch='touch "$(date +%Y%m%d-%H%M%S).md"'
+alias linecount='find . -type f -print0 | wc -l --files0-from=-'
+
+# tricks from the net
+alias rot13="tr 'a-zA-Z' 'n-za-mN-ZA-M'"
+alias histstats="history | awk '{CMD[\$2]++;count++;}END { for (a in CMD)print CMD[a] \" \" CMD[a]/count*100 \"% \" a;}' | grep -v './' | column -c3 -s ' ' -t | sort -nr | nl |  head -n10"
+alias shrug='echo -n "¯\_(ツ)_/¯" | xclip -selection clipboard && echo "\"¯\_(ツ)_/¯\" copied to clipboard!"'
+alias weather='curl wttr.in/$CITY'
