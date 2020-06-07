@@ -20,9 +20,7 @@ nnoremap <C-H> <C-W><C-H>
 
 nmap <C-n> :NERDTreeToggle<CR>
 
-" In insert or command mode, move normally by using Ctrl
-inoremap <C-h> <Left>
-inoremap <C-l> <Right>
-
-
 nnoremap <Leader>r :source $MYVIMRC<CR>
+
+" Toggle syntax
+nnoremap <Leader>s :if exists("g:syntax_on") <Bar> syntax off <Bar> else <Bar> syntax enable <Bar> endif <CR>
