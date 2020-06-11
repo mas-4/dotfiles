@@ -23,3 +23,6 @@ let g:NERDTreeIndicatorMapCustom = {
     \ "Unknown"   : "?"
     \ }
 
+
+" For some reason the command line got doubled
+set cmdheight=1
