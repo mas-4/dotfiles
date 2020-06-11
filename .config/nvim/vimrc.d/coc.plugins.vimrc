@@ -1,4 +1,5 @@
 let g:coc_global_extensions = [
+    \ 'coc-spell-checker',
     \ 'coc-yank',
     \ 'coc-snippets',
     \ 'coc-json',

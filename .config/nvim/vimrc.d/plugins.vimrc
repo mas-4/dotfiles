@@ -16,6 +16,7 @@ Plug 'junegunn/fzf.vim'
 " Simple functionality improvements
 Plug 'machakann/vim-sandwich'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'ntpeters/vim-better-whitespace'             " better whitespace detection
 
 " Nerdtree stuff
 Plug 'scrooloose/nerdtree'
