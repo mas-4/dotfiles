@@ -23,6 +23,8 @@ let g:NERDTreeIndicatorMapCustom = {
     \ "Unknown"   : "?"
     \ }
 
-
 " For some reason the command line got doubled
 set cmdheight=1
+
+" The vimwiki plugin tries to rewrite coc's tab auto-complete
+let g:vimwiki_table_mappings = 0
