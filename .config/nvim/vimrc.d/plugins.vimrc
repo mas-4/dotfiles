@@ -7,6 +7,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'styled-components/vim-styled-components'    " Styled components
 Plug 'MaxMEllon/vim-jsx-pretty'                   " jsx syntax
 Plug 'jparise/vim-graphql'                        " graphql syntax
+Plug 'Vimjas/vim-python-pep8-indent'              " pep8 indenting
+Plug 'jiangmiao/auto-pairs'                       " auto closing
 
 
 " Fuzzy Finder (control-p)
