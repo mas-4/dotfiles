@@ -35,3 +35,6 @@ set ruler
 " search
 set incsearch               " incremental search
 set hlsearch                " highlight search
+
+" for latex
+autocmd BufWritePost *.tex silent! execute "!pdflatex % >/dev/null 2>&1" | redraw!
