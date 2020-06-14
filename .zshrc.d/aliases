@@ -45,6 +45,17 @@ alias pi='pip install'
 alias pupgradeall='pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U'
 alias newvenv='venv && v && pu && pi neovim jedi'
 
+#############
+## vimwiki ##
+#############
+alias vimtask='nvim ~/vimwiki/tasks.md'
+alias vw='vimwiki'
+alias vs='vw git status'
+alias vl='vw git pull'
+alias vp='vw git push'
+alias va='vw git add'
+alias vc='vw git commit --verbose'
+
 ###################################
 ## overrides for system defaults ##
 ###################################
@@ -60,8 +71,6 @@ alias changedfiles="find . -type f -print0 | xargs -0 stat --format '%Z :%z %n' 
 alias dtouch='touch "$(date +%Y%m%d-%H%M%S).md"'
 # count all lines recursively
 alias linecount='find . -type f -print0 | wc -l --files0-from=-'
-# jump straight into vimwiki
-alias vimtask='nvim ~/vimwiki/tasks.wiki'
 
 # tricks from the net
 alias rot13="tr 'a-zA-Z' 'n-za-mN-ZA-M'"
