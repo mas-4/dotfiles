@@ -56,8 +56,12 @@ alias gcc='gcc -Wall -Werror'
 
 # simple utilities
 alias changedfiles="find . -type f -print0 | xargs -0 stat --format '%Z :%z %n' | sort -nr | cut -d: -f2- | head -n 20"
+# create markdown file with date and time
 alias dtouch='touch "$(date +%Y%m%d-%H%M%S).md"'
+# count all lines recursively
 alias linecount='find . -type f -print0 | wc -l --files0-from=-'
+# jump straight into vimwiki
+alias vimtask='nvim ~/vimwiki/tasks.wiki'
 
 # tricks from the net
 alias rot13="tr 'a-zA-Z' 'n-za-mN-ZA-M'"
