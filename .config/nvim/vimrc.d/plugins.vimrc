@@ -9,7 +9,7 @@ Plug 'MaxMEllon/vim-jsx-pretty'                   " jsx syntax
 Plug 'jparise/vim-graphql'                        " graphql syntax
 Plug 'Vimjas/vim-python-pep8-indent'              " pep8 indenting
 Plug 'jiangmiao/auto-pairs'                       " auto closing
-
+Plug 'godlygeek/tabular'                          " Easy align tabular data
 
 " Fuzzy Finder (control-p)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -26,7 +26,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
 
 " Vimwiki
-Plug 'vimwiki/vimwiki'
+Plug 'vimwiki/vimwiki', {'branch': 'dev'}
+
 
 " Airline
 Plug 'bling/vim-airline'
