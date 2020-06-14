@@ -27,7 +27,6 @@ Plug 'tpope/vim-fugitive'
 
 " Vimwiki
 Plug 'vimwiki/vimwiki'
-Plug 'tbabej/taskwiki'
 
 " Airline
 Plug 'bling/vim-airline'
