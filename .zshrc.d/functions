@@ -23,7 +23,7 @@ function gi() { curl -sLw n https://www.gitignore.io/api/$@ ;}
 
 # This function allows me to go straight into vimwiki index or interact with the
 # git database without changing directory.
-vimwiki () {
+function vimwiki() {
     if [[ $# == 0 ]]
     then
         nvim +'VimwikiIndex'
@@ -33,4 +33,8 @@ vimwiki () {
     else
         echo 'Usage: vimwiki [git] [args ...]'
     fi
+}
+
+function rrun() {
+    rustc $1.rs && ./$1
 }
