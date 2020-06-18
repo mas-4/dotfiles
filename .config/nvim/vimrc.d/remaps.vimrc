@@ -27,3 +27,9 @@ nnoremap <Leader>s :if exists("g:syntax_on") <Bar> syntax off <Bar> else <Bar> s
 
 " Open tex preview
 map <Leader>p :! mupdf $(echo % \| sed 's/tex$/pdf/') & disown<CR><CR>
+
+" Copy to primary and clipboard
+noremap <Leader>y "*y
+noremap <Leader>p "*p
+noremap <Leader>Y "+y
+noremap <Leader>P "+p
