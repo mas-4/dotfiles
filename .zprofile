@@ -1,3 +1,3 @@
-eval `ssh-agent`
+#eval `ssh-agent`
 
 export PATH="$HOME/.cargo/bin:$PATH"
