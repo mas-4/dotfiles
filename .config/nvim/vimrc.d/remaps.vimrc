@@ -26,7 +26,7 @@ nnoremap <Leader>r :source $MYVIMRC<CR>
 nnoremap <Leader>s :if exists("g:syntax_on") <Bar> syntax off <Bar> else <Bar> syntax enable <Bar> endif <CR>
 
 " Open tex preview
-map <Leader>p :! mupdf $(echo % \| sed 's/tex$/pdf/') & disown<CR><CR>
+map <Leader>d :! mupdf $(echo % \| sed 's/tex$/pdf/') & disown<CR><CR>
 
 " Copy to primary and clipboard
 noremap <Leader>y "*y
