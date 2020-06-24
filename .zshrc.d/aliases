@@ -36,6 +36,13 @@ alias yp='y push'
 alias ya='y add'
 alias yc='y commit --verbose'
 
+##########
+## pass ##
+##########
+alias p='pass'
+alias pl='p git pull'
+alias pp='p git push'
+
 ############
 ## Python ##
 ############
