@@ -77,6 +77,7 @@ alias gcc='gcc -Wall -Werror'
 alias changedfiles="find . -type f -print0 | xargs -0 stat --format '%Z :%z %n' | sort -nr | cut -d: -f2- | head -n 20"
 # create markdown file with date and time
 alias dtouch='touch "$(date +%Y%m%d-%H%M%S).md"'
+alias date2='date +%Y%m%d-%H%M%S'
 # count all lines recursively
 alias linecount='find . -type f -print0 | wc -l --files0-from=-'
 
