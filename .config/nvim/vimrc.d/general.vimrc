@@ -38,3 +38,6 @@ set hlsearch                " highlight search
 
 " for latex
 autocmd BufWritePost *.tex silent! execute "!pdflatex % >/dev/null 2>&1" | redraw!
+
+" filetype js indent
+autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
