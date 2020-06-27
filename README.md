@@ -10,4 +10,4 @@
 These are my dotfiles. There are many like them, but these ones are mine.
 
 This is what they look like:
-![pictures/scrots/unixporn.jpg]
+![./pictures/scrots/unixporn.jpg]
