@@ -164,6 +164,7 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
 
 bindsym $mod+t exec --no-startup-id compton --config ~/.config/compton/compton.conf --backend glx --blur-method kawase  --blur-background --blur-strength 20
 exec --no-startup-id compton --config ~/.config/compton/compton.conf --backend glx --blur-method kawase  --blur-background --blur-strength 20
