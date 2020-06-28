@@ -1,6 +1,8 @@
 #
 # wm independent hotkeys
 
+super + shift + f
+    firefox
 
 # print screen
 Print
