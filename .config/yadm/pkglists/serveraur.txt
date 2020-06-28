@@ -1,0 +1,6 @@
+aerc
+gconf
+keybase-bin
+nodejs-gatsby-cli
+python-lesscpy
+python-tasklib

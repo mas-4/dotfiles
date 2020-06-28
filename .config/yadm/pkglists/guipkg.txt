@@ -5,6 +5,7 @@ autoconf
 automake
 aws-cli
 base
+base-devel
 bdf-unifont
 binutils
 bison
@@ -14,7 +15,6 @@ conky
 dhcpcd
 dmenu
 elinks
-emacs
 fakeroot
 feh
 ffmpegthumbnailer
@@ -57,7 +57,6 @@ mesa-demos
 mlocate
 moka-icon-theme
 mupdf
-mutt
 neofetch
 neovim
 nitrogen

@@ -1,13 +1,18 @@
-echo "Installing all pacman packages"
-pacman -S --noconfirm - < ~/.config/yadm/pkglist.txt
+if [[ $server ]]; then
+    echo "server setup..."
+    pkglist='~/.config/yadm/pkglists/serverpkg.txt'
+    aurlist='~/.config/yadm/pkglists/serveraur.txt'
+elif [[ $gui ]]; then
+    echo "gui setup..."
+    pkglist='~/.config/yadm/pkglists/guipkg.txt'
+    aurlist='~/.config/yadm/pkglists/guiaur.txt'
+fi
 
-echo "Cloning and installing yay"
-git clone https://aur.archlinux.org/packages/yay/
-cd yay
-makepkg -si
+echo "Installing all pacman packages"
+pacman -S --noconfirm --needed - < $pkglist
 
 echo "Installing aur packages"
-yay -S ~/.config/yadm/pkglist.txt
+yay -S --needed --noconfirm - < $aurlist
 
 echo "Installing omz"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

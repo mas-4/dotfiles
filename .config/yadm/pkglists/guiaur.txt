@@ -17,6 +17,4 @@ spotify
 ttf-material-icons-git
 ttf-meslo
 ttf-unifont
-yadm
-yay
 zoom
