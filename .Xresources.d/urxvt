@@ -1,3 +1,7 @@
 URxvt*foreground: #cccccc
 URxvt*background: #222222
-URxvt.font: Hack
+URxvt.font: xft:Hack:size=16
+
+urxvt.scrollBar: false
+urxvt.internalBorder: 0
+urxvt.size_hints: false
