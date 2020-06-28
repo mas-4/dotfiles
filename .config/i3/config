@@ -9,7 +9,8 @@ hide_edge_borders smart
 gaps inner 20
 gaps outer 5
 
-exec --no-startup-id nitrogen --restore
+# scrot
+bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -164,8 +165,13 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
 
+# launch compton
 bindsym $mod+t exec --no-startup-id compton --config ~/.config/compton/compton.conf --backend glx --blur-method kawase  --blur-background --blur-strength 20
 exec --no-startup-id compton --config ~/.config/compton/compton.conf --backend glx --blur-method kawase  --blur-background --blur-strength 20
+
+# launch polybar
 exec_always --no-startup-id  $HOME/.config/polybar/launch.sh
+
+# start nitrogen
+exec --no-startup-id nitrogen --restore
