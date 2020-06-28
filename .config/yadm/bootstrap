@@ -1,24 +1,21 @@
 if [[ $server ]]; then
     echo "server setup..."
-    pkglist='~/.config/yadm/pkglists/serverpkg.txt'
-    aurlist='~/.config/yadm/pkglists/serveraur.txt'
+    pkglist="$HOME/.config/yadm/pkglists/serverpkg.txt"
+    aurlist="$HOME/.config/yadm/pkglists/serveraur.txt"
 elif [[ $gui ]]; then
     echo "gui setup..."
-    pkglist='~/.config/yadm/pkglists/guipkg.txt'
-    aurlist='~/.config/yadm/pkglists/guiaur.txt'
+    pkglist="$HOME/config/yadm/pkglists/guipkg.txt"
+    aurlist="$HOME/config/yadm/pkglists/guiaur.txt"
 else
     echo "no options set"
     exit
 fi
 
 echo "Installing all pacman packages"
-pacman -S --noconfirm --needed - < $pkglist
+sudo pacman -S --noconfirm --needed - < $pkglist
 
 echo "Installing aur packages"
 yay -S --needed --noconfirm - < $aurlist
-
-echo "Installing omz"
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo "Installing vim-plug"
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
@@ -37,3 +34,6 @@ git clone me:vimwiki
 echo "Decrypting and importing secrets"
 yadm decrypt
 gpg --import .secrets/mas88/mas88.key
+
+echo "Installing omz"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
