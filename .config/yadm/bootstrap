@@ -1,3 +1,4 @@
+set -o errexit
 if [[ $server ]]; then
     echo "server setup..."
     pkglist="$HOME/.config/yadm/pkglists/serverpkg.txt"
@@ -23,7 +24,6 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 echo "Installing neovim plugins"
 nvim --headless +PlugInstall +qall
-nvim --headless +CocUpdateSync +qall
 
 echo "cloning passwordstore"
 git clone me:passwordstore .password-store
