@@ -3,7 +3,7 @@
 
 ! Define fonts
 #define     font_face   Hack
-#define     font_size   14
+#define     font_size   16
 
 ! Import xterm/urxvt settings
 #include    ".Xresources.d/xterm"
