@@ -6,6 +6,9 @@ elif [[ $gui ]]; then
     echo "gui setup..."
     pkglist='~/.config/yadm/pkglists/guipkg.txt'
     aurlist='~/.config/yadm/pkglists/guiaur.txt'
+else
+    echo "no options set"
+    exit
 fi
 
 echo "Installing all pacman packages"
