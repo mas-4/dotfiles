@@ -1,0 +1,7 @@
+[bar/default-settings]
+font-0 = Hack:style=Regular:pixelsize=14
+font-1 = Font Awesome 5 Free,Font Awesome 5 Free Solid:style=Solid:pixelsize=14
+font-3 = Material Icons:style=Regular
+
+background = ${colors.background}
+foreground = ${colors.foreground}
