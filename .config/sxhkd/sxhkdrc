@@ -15,7 +15,7 @@ super + shift + ctrl + l
 
 # terminal emulator
 super + Return
-    xterm
+    termite
 
 # program launcher
 #super + @space
