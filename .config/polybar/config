@@ -51,4 +51,7 @@ include-file = $HOME/.config/polybar/default.bar
 ; Main non-de bar
 include-file = $HOME/.config/polybar/main.bar
 
+; bspwm
+include-file = $HOME/.config/polybar/bspwm-l.bar
+include-file = $HOME/.config/polybar/bspwm-r.bar
 ; vim:ft=dosini

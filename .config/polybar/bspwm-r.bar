@@ -1,0 +1,28 @@
+[bar/bspwm-r]
+inherit = bar/default-settings
+
+monitor = DP-0
+
+bottom = true
+width = 18%
+height = 27
+offset-x = 41%
+radius = 6.0
+fixed-center = true
+
+; what is this?
+line-size = 3
+line-color = #FFF
+
+padding-left = 2
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 1
+
+modules-center = bspwm
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+; vim:ft=dosini
