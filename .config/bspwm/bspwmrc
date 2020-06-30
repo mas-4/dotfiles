@@ -1,25 +1,34 @@
 #! /bin/sh
 
-sxhkd &
 
-#bspc monitor -d I II III IV V VI VII VIII IX X
+##############
+## monitors ##
+##############
 bspc monitor HDMI-0 -d i ii iii iv v
 bspc monitor DP-0 -d vi vii viii ix x
 
-#bspc config border_width         0
+##############
+## settings ##
+##############
 bspc config window_gap          12
-
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
-bspc config gapless_monocle      true
+bspc config gapless_monocle      false
 bspc config focus_follows_pointer true
 
+###########
+## rules ##
+###########
 bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a Chromium desktop='^2'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
+
+##############
+## services ##
+##############
 xss-lock --transfer-sleep-lock -- betterlockscreen -l &
 
 nitrogen --restore &
@@ -28,6 +37,6 @@ polybar main &
 polybar bspwm-l &
 polybar bspwm-r &
 
+sxhkd &
 compton --config ~/.config/compton/compton.conf --backend glx --blur-method \
     kawase  --blur-background --blur-strength 20 &
-
