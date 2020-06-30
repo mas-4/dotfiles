@@ -3,7 +3,7 @@ inherit = bar/default-settings
 
 width = 70%
 height = 27
-offset-x = 19%
+offset-x = 15%
 offset-y = 0.25%
 radius = 6.0
 fixed-center = true
