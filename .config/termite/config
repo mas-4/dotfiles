@@ -40,46 +40,6 @@ hyperlinks = true
 # "off", "left" or "right"
 scrollbar = off
 
-[colors]
-# If both of these are unset, cursor falls back to the foreground color,
-# and cursor_foreground falls back to the background color.
-#cursor = #dcdccc
-#cursor_foreground = #dcdccc
-
-
-# If unset, will reverse foreground and background
-highlight = #2f2f2f
-
-# Colors from color0 to color254 can be set
-foreground  =   #f706cf
-#background  =   #1b0e33
-# this converts the ^ color there to rgba with transparency
-background = rgba(27, 14, 51, 0.8)
-# black
-color0  =       #0d0221
-color8  =       #241734
-# red
-color1  =       #d40078
-color9  =       #f6019d
-# green
-color2  =       #68bb59
-color10 =       #66ff99
-# yellow
-color3  =       #f9c80e
-color11 =       #ffef00
-# blue
-color4  =       #023788
-color12 =       #045ded
-# magenta
-color5  =       #5c2686
-color13 =       #9f14d9
-# cyan
-color6  =       #31bbb3
-color14 =       #00f3ff
-# white
-color7  =       #fff5c3
-color15 =       #ffffff
-
 [hints]
 #font = Monospace 12
 #foreground = #dcdccc
@@ -90,5 +50,46 @@ color15 =       #ffffff
 #border = #3f3f3f
 #border_width = 0.5
 #roundness = 2.0
+
+[colors]
+
+# special
+foreground      = #f706cf
+foreground_bold = #f706cf
+cursor          = #f706cf
+background      = #1b0e33
+
+# black
+color0  = #0d0221
+color8  = #241734
+
+# red
+color1  = #d40078
+color9  = #f6019d
+
+# green
+color2  = #68bb59
+color10 = #66ff99
+
+# yellow
+color3  = #f9c80e
+color11 = #ffef00
+
+# blue
+color4  = #023788
+color12 = #045ded
+
+# magenta
+color5  = #5c2686
+color13 = #9f14d9
+
+# cyan
+color6  = #31bbb3
+color14 = #00f3ff
+
+# white
+color7  = #fff5c3
+color15 = #ffffff
+
 
 # vim: ft=dosini cms=#%s
