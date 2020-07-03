@@ -48,6 +48,7 @@ alias pp='p git push'
 ############
 alias venv='python -m venv .venv'
 alias v='source ./.venv/bin/activate'
+alias vv='source ./venv/bin/activate'
 alias pu='pip install --upgrade pip'
 alias pi='pip install'
 alias pupgradeall='pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U'
