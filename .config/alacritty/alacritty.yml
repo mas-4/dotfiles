@@ -1,0 +1,32 @@
+colors:
+  # Default colors
+  primary:
+    background: '0x1b0e33'
+    foreground: '0xf706cf'
+
+  # Normal colors
+  normal:
+    black:   '0x0d0221'
+    red:     '0xd40078'
+    green:   '0x68bb59'
+    yellow:  '0xf9c80e'
+    blue:    '0x023788'
+    magenta: '0x5c2686'
+    cyan:    '0x31bbb3'
+    white:   '0xfff5c3'
+
+  # Bright colors
+  bright:
+    black:   '0x241734'
+    red:     '0xf6019d'
+    green:   '0x66ff99'
+    yellow:  '0xffef00'
+    blue:    '0x045ded'
+    magenta: '0x9f14d9'
+    cyan:    '0x00f3ff'
+    white:   '0xffffff'
+font:
+    normal:
+        family: Hack
+        style: Regular
+    size: 16
