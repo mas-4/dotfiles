@@ -14,6 +14,7 @@ Plug 'godlygeek/tabular'                          " Easy align tabular data
 " Fuzzy Finder (control-p)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'alok/notational-fzf-vim'
 
 " Simple functionality improvements
 Plug 'machakann/vim-sandwich'

@@ -36,3 +36,6 @@ let g:vimwiki_global_ext = 0
 
 " Disable whitespace highlighting for current line
 let g:go_highlight_trailing_whitespace_error=0
+
+" Set home dir for notational-fzf-vim
+let g:nv_search_paths = ['~/vimwiki/notes']
