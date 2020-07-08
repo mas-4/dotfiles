@@ -1,5 +1,4 @@
-" disable highlight after higlight search
-nmap <C-C>          :noh<CR>
+" disable highlight after higlight search nmap <C-C>          :noh<CR>
 
 " disable ex mode
 :map Q              <Nop>
@@ -39,3 +38,6 @@ nnoremap <C-t>      :tabnew<CR>
 inoremap <C-t>      <Esc>:tabnew<CR>
 inoremap <C-W>      <Esc>:tabclose<CR>
 nnoremap <C-W>      :tabclose<CR>
+
+" Notational FZF
+nnoremap <c-y> :NV<CR>
