@@ -30,6 +30,9 @@ function vimwiki() {
     elif [[ $1 == 'git' ]]
     then
         git -C ~/vimwiki/ ${@:2}
+    elif [[ $1 == 'notes' ]]
+    then
+        ~/vimwiki/notes/generate_index.py
     else
         echo 'Usage: vimwiki [git] [args ...]'
     fi
