@@ -1,0 +1,18 @@
+colors:
+  body: none
+  date: yellow
+  tags: red
+  title: green
+default_hour: 9
+default_minute: 0
+editor: /bin/nvim
+encrypt: false
+highlight: true
+indent_character: '|'
+journals:
+  default: /home/mas/.jrnl/jrnl.txt
+linewrap: 79
+tagsymbols: '@'
+template: false
+timeformat: '%Y-%m-%d %H:%M'
+version: v2.4.2
