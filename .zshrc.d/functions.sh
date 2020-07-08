@@ -38,6 +38,18 @@ function vimwiki() {
     fi
 }
 
+
+function _jrnl() {
+    if [[ $1 == 'git' ]]
+    then
+        git -C ~/.jrnl/ ${@:2}
+    else
+        /usr/bin/jrnl ${@:1}
+    fi
+}
+
+alias jrnl=" _jrnl"
+
 function rrun() {
     rustc $1.rs && ./$1
 }

@@ -13,3 +13,5 @@ source $ZSH/oh-my-zsh.sh
 # domz overwrites this particular alias. So I added this here because idc enough
 # to fix that. It's elegant enough as it is.
 alias l='ls -F'
+
+setopt HIST_IGNORE_SPACE
