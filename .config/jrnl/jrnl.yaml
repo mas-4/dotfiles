@@ -10,7 +10,7 @@ encrypt: false
 highlight: true
 indent_character: '|'
 journals:
-  default: /home/mas/.jrnl/jrnl.txt
+  default: ~/.jrnl/jrnl.txt
 linewrap: 79
 tagsymbols: '@'
 template: false
