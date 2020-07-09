@@ -20,7 +20,8 @@ module-margin-right = 2
 
 
 modules-left = bspwm i3
-modules-right = pulseaudio filesystem xkeyboard xbacklight memory cpu wlan eth battery temperature date powermenu
+;modules-right = pulseaudio filesystem xkeyboard xbacklight memory cpu wlan eth battery temperature date powermenu
+modules-right = pulseaudio filesystem  xbacklight memory cpu wlan eth battery temperature date powermenu
 
 tray-position = right
 tray-padding = 2
