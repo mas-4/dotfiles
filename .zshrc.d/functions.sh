@@ -43,6 +43,9 @@ function _jrnl() {
     if [[ $1 == 'git' ]]
     then
         git -C ~/.jrnl/ ${@:2}
+    elif [[ $1 == 'commit' ]]
+    then
+        git -C ~/.jrnl/ commit -am "new updates" && git -C ~/.jrnl/ push
     else
         /usr/bin/jrnl ${@:1}
     fi
