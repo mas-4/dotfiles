@@ -4,3 +4,5 @@ source $HOME/.config/nvim/vimrc.d/remaps.vimrc
 source $HOME/.config/nvim/vimrc.d/undo.vimrc
 source $HOME/.config/nvim/vimrc.d/macros.vimrc
 source $HOME/.config/nvim/vimrc.d/fixes.vimrc
+
+set signcolumn=no " Get rid of hideous grey bar on the left
