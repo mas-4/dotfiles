@@ -22,7 +22,7 @@ modules-right = date
 ; modules-right = date powermenu
 
 tray-position = right
-tray-padding = 5
+tray-padding = 1
 tray-background = ${colors.background}
 
 cursor-click = pointer
