@@ -25,6 +25,7 @@ alias se='sudoedit'
 alias h='history | grep'    # Use like, "h ssh" to see all ssh in your history
 alias hd='fc -li 1'
 alias gs='git status'
+alias jl='jrnl git pull'
 
 ##########
 ## yadm ##
