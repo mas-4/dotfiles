@@ -38,4 +38,18 @@ let g:vimwiki_global_ext = 0
 let g:go_highlight_trailing_whitespace_error=0
 
 " Set home dir for notational-fzf-vim
-let g:nv_search_paths = ['~/vimwiki/notes']
+let g:nv_search_paths = ['~/vimwiki/wiki']
+
+" Arduino stuff
+let g:arduino_cmd = '/usr/share/arduino/arduino'
+
+if !exists("g:arduino_upload_command")
+    let g:arduino_upload_command = "arduino --upload"
+endif
+
+function! ArduinoCompileAndUpload()
+    silent !clear
+    execute "!" . g:arduino_upload_command . " " . bufname("%")
+endfunction
+
+nnoremap <buffer> <localleader>u :call ArduinoCompileAndUpload()<cr>
