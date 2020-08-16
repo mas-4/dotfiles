@@ -3,6 +3,8 @@ call plug#begin('~/.vim/plugged')
 " CoC
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+Plug 'stevearc/vim-arduino'
+
 " Extra syntax
 Plug 'styled-components/vim-styled-components'    " Styled components
 Plug 'MaxMEllon/vim-jsx-pretty'                   " jsx syntax

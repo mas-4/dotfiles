@@ -34,3 +34,17 @@ let g:airline_symbols.linenr = ''
 " Set the theme (these are my 2 favorites)
 let g:airline_theme='atomic'
 " let g:airline_theme='tomorrow'
+
+" Arduino board status
+" my_file.ino [arduino:avr:uno] [arduino:usbtinyisp] (/dev/ttyACM0:9600)
+function! MyStatusLine()
+  let port = arduino#GetPort()
+  let line = '%f [' . g:arduino_board . '] [' . g:arduino_programmer . ']'
+  if !empty(port)
+    let line = line . ' (' . port . ':' . g:arduino_serial_baud . ')'
+  endif
+  return line
+endfunction
+setl statusline=%!MyStatusLine()
+
+autocmd BufNewFile,BufRead *.ino let g:airline_section_x='%{MyStatusLine()}'

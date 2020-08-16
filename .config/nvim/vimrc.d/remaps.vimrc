@@ -1,4 +1,5 @@
-" disable highlight after higlight search nmap <C-C>          :noh<CR>
+" disable highlight after higlight search
+nmap <C-C>          :noh<CR>
 
 " disable ex mode
 :map Q              <Nop>

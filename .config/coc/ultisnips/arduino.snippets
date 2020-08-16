@@ -1,6 +1,7 @@
 # A valid snippet should starts with:
 #
 #		snippet trigger_word [ "description" [ options ] ]
+#
 # and end with:
 #
 #		endsnippet
@@ -23,19 +24,10 @@
 #
 # Online reference: https://github.com/SirVer/ultisnips/blob/master/doc/UltiSnips.txt
 
-snippet constructor
-constructor(props) {
-	super(props);
-	this.state = {
-		$0
-	}
+snippet "BareMinimum" b
+void setup() {
 }
-endsnippet
 
-snippet clog "console.log()" b
-console.log($1);
-endsnippet
-
-snippet stprops "${props => props.theme.}" b
-${props => props.theme.$1};
+void loop() {
+}
 endsnippet
