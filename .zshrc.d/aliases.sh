@@ -26,6 +26,7 @@ alias h='history | grep'    # Use like, "h ssh" to see all ssh in your history
 alias hd='fc -li 1'
 alias gs='git status'
 alias jl='jrnl git pull'
+alias ipy='ipython'
 
 ##########
 ## yadm ##
@@ -53,7 +54,7 @@ alias vv='source ./venv/bin/activate'
 alias pu='pip install --upgrade pip'
 alias pi='pip install'
 alias pupgradeall='pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U'
-alias newvenv='venv && v && pu && pi neovim jedi'
+alias newvenv='venv && v && pu'
 
 #############
 ## vimwiki ##
