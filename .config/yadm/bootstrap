@@ -5,8 +5,8 @@ if [[ $server ]]; then
     aurlist="$HOME/.config/yadm/pkglists/serveraur.txt"
 elif [[ $gui ]]; then
     echo "gui setup..."
-    pkglist="$HOME/config/yadm/pkglists/guipkg.txt"
-    aurlist="$HOME/config/yadm/pkglists/guiaur.txt"
+    pkglist="$HOME/.config/yadm/pkglists/guipkg.txt"
+    aurlist="$HOME/.config/yadm/pkglists/guiaur.txt"
 else
     echo "no options set"
     exit
