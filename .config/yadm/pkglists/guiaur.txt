@@ -13,8 +13,6 @@ polybar
 python-lesscpy
 python-tasklib
 skypeforlinux-stable-bin
-spotify
 ttf-material-icons-git
 ttf-meslo
-ttf-unifont
 zoom
