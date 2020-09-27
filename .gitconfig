@@ -18,3 +18,5 @@
 	rebase = true
 [url "git@github.com:malan88/"]
     insteadOf = me:
+[url "git@github.com:Anno-Wiki/"]
+    insteadOf = icc:
