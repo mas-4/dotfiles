@@ -42,3 +42,6 @@ nnoremap <C-W>      :tabclose<CR>
 
 " Notational FZF
 nnoremap <c-y> :NV<CR>
+
+" Autoindent return to loc
+map <F7> gg=G<C-o><C-o>
