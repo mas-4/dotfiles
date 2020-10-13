@@ -6,12 +6,13 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'stevearc/vim-arduino'
 
 " Extra syntax
-Plug 'styled-components/vim-styled-components'    " Styled components
-Plug 'MaxMEllon/vim-jsx-pretty'                   " jsx syntax
-Plug 'jparise/vim-graphql'                        " graphql syntax
-Plug 'Vimjas/vim-python-pep8-indent'              " pep8 indenting
-Plug 'jiangmiao/auto-pairs'                       " auto closing
-Plug 'godlygeek/tabular'                          " Easy align tabular data
+" Plug 'styled-components/vim-styled-components'    " Styled components
+Plug 'yuezk/vim-js'                                 " Better js
+Plug 'MaxMEllon/vim-jsx-pretty'                     " jsx syntax
+Plug 'jparise/vim-graphql'                          " graphql syntax
+Plug 'Vimjas/vim-python-pep8-indent'                " pep8 indenting
+Plug 'jiangmiao/auto-pairs'                         " auto closing
+Plug 'godlygeek/tabular'                            " Easy align tabular data
 
 " Fuzzy Finder (control-p)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
