@@ -27,6 +27,7 @@ alias hd='fc -li 1'
 alias gs='git status'
 alias jl='jrnl git pull'
 alias ipy='ipython'
+alias gpr='git submodule foreach --recursive git push'
 
 ##########
 ## yadm ##
