@@ -3,13 +3,8 @@ call plug#begin('~/.vim/plugged')
 " CoC
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-Plug 'stevearc/vim-arduino'
-
 " Extra syntax
 " Plug 'styled-components/vim-styled-components'    " Styled components
-Plug 'yuezk/vim-js'                                 " Better js
-Plug 'MaxMEllon/vim-jsx-pretty'                     " jsx syntax
-Plug 'jparise/vim-graphql'                          " graphql syntax
 Plug 'Vimjas/vim-python-pep8-indent'                " pep8 indenting
 Plug 'jiangmiao/auto-pairs'                         " auto closing
 Plug 'godlygeek/tabular'                            " Easy align tabular data
@@ -17,7 +12,6 @@ Plug 'godlygeek/tabular'                            " Easy align tabular data
 " Fuzzy Finder (control-p)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'alok/notational-fzf-vim'
 
 " Simple functionality improvements
 Plug 'machakann/vim-sandwich'
@@ -28,9 +22,6 @@ Plug 'ntpeters/vim-better-whitespace'               " better whitespace detectio
 Plug 'scrooloose/nerdtree'
 
 Plug 'tpope/vim-fugitive'
-
-" Vimwiki
-Plug 'vimwiki/vimwiki', {'branch': 'dev'}
 
 
 " Airline

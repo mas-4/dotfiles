@@ -6,3 +6,5 @@ source $HOME/.config/nvim/vimrc.d/macros.vimrc
 source $HOME/.config/nvim/vimrc.d/fixes.vimrc
 
 set signcolumn=no " Get rid of hideous grey bar on the left
+let g:coc_disable_startup_warning = 1
+

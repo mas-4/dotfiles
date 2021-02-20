@@ -6,11 +6,8 @@ let g:coc_global_extensions = [
     \ 'coc-python',
     \ 'coc-jedi',
     \ 'coc-rls',
-    \ 'coc-go',
     \ 'coc-json',
     \ 'coc-yaml',
     \ 'coc-css',
     \ 'coc-html',
-    \ 'coc-styled-components',
-    \ 'coc-tsserver',
     \ ]
