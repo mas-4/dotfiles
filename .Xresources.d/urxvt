@@ -1,7 +1,0 @@
-URxvt.font: xft:font_face:size=font_size,Font\ Awesome\ 5\ Free\ Solid:style=Solid
-
-urxvt.scrollBar: false
-urxvt.internalBorder: 10
-urxvt.size_hints: false
-
-URxvt.iso14755: false

@@ -1,3 +1,0 @@
-[bar/bspwm-r]
-monitor = DP-0
-inherit = bar/bspwm
