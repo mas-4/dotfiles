@@ -37,7 +37,6 @@ gucharmap
 gzip
 highlight
 i3-gaps
-i3lock-color
 imagemagick
 ipython
 jupyter
@@ -55,7 +54,6 @@ man-db
 mediainfo
 mesa-demos
 mlocate
-moka-icon-theme
 mupdf
 neofetch
 neovim
@@ -136,7 +134,6 @@ which
 xorg-bdftopcf
 xorg-fonts-misc
 xorg-iceauth
-xorg-luit
 xorg-mkfontscale
 xorg-server
 xorg-sessreg
