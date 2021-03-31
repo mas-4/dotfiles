@@ -9,6 +9,9 @@ Print
     sleep 0.2; \
     scrot -s $HOME/'pictures/scrots/%Y-%m-%d_%H%M%S-$wx$h_scrot.png'
 
+super + shift + s
+    maim -s -u | xclip -selection clipboard -t image/png -i
+
 # lock screen
 super + shift + ctrl + l
     exec betterlockscreen -l
@@ -96,6 +99,7 @@ super + {o,i}
 # focus or send to the given desktop
 super + {_,shift + }{1-9,0}
     bspc {desktop -f,node -d} '^{1-9,10}'
+    #bspc {desktop -f,node -d} '^{1, 3, 5, 7, 9, 2, 4, 6, 8, 0}
 
 #
 # preselect
