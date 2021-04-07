@@ -8,19 +8,21 @@ configuration {
     columns: 2;
     show-icons: true;
     icon-theme: "Paper";
+    font: "hack 16";
 }
 * {
     spacing: 0;
 }
 #window, {
     border: 0;
-    border-radius: 1;
+    border-radius: 10;
     padding: 10%;
-    background-color: rgba (36, 23, 52, 10 % );
+    background-color: rgba (36, 23, 52, 100 % );
     fullscreen: true;
 }
 #mainbox {
     border: 0;
+    border-radius: 20;
     padding: 0%;
     background-color: rgba ( 13, 2, 33, 30 % );
 }
@@ -36,6 +38,7 @@ configuration {
     border-color: rgba ( 0, 0, 0, 100 % );
     background-color: rgba ( 216, 222, 232, 0 % );
     text-color: rgba ( 251, 250, 250, 100 % );
+    font-family: "Hack";
 }
 #element {
     border:  0;
@@ -59,7 +62,8 @@ configuration {
 }
 
 #inputbar {
-    padding: 10 15% 0;
+    border: 0;
+    padding: 10% 15% 0;
     spacing: 10;
     background-color: rgba ( 216, 222, 232, 0 % );
     text-color: rgba ( 231, 232, 235, 100 % );
