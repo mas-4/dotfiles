@@ -1,35 +1,13 @@
 set -o errexit
-if [[ $server ]]; then
-    echo "server setup..."
-    pkglist="$HOME/.config/yadm/pkglists/serverpkg.txt"
-    aurlist="$HOME/.config/yadm/pkglists/serveraur.txt"
-elif [[ $gui ]]; then
-    echo "gui setup..."
-    pkglist="$HOME/.config/yadm/pkglists/guipkg.txt"
-    aurlist="$HOME/.config/yadm/pkglists/guiaur.txt"
-else
-    echo "no options set"
-    exit
-fi
 
-echo "Installing all pacman packages"
-sudo pacman -S --noconfirm --needed - < $pkglist
+echo "Installing python-neovim"
+sudo pacman -S --needed python-neovim ripgrep
 
-echo "Installing aur packages"
-yay -S --needed --noconfirm - < $aurlist
-
-echo "Installing vim-plug"
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+echo "Installing vimplug"
+yay -S --needed vim-plug
 
 echo "Installing neovim plugins"
 nvim --headless +PlugInstall +qall
-
-echo "cloning passwordstore"
-git clone me:passwordstore .password-store
-
-echo "cloning vimwiki"
-git clone me:vimwiki
 
 echo "Decrypting and importing secrets"
 yadm decrypt
