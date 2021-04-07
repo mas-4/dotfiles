@@ -3,7 +3,7 @@ let g:coc_global_extensions = [
     \ 'coc-cspell-dicts',
     \ 'coc-yank',
     \ 'coc-snippets',
-    \ 'coc-python',
+    \ 'coc-pyright',
     \ 'coc-jedi',
     \ 'coc-rls',
     \ 'coc-go',
