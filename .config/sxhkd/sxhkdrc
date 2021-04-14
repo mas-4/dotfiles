@@ -12,6 +12,9 @@ Print
 super + shift + s
     maim -s -u | xclip -selection clipboard -t image/png -i
 
+super + shift + Print
+    maim -s -u > $HOME/screen.jpg
+
 # lock screen
 super + shift + ctrl + l
     exec betterlockscreen -l

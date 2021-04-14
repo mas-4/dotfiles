@@ -86,5 +86,8 @@ configuration {
     background-color: rgba ( 20, 20, 25,100 % );
     text-color: rgba ( 20, 20, 25, 100 % );
 }
+#element-icon {
+    size: 50;
+}
 
 /* vim:ft=css
