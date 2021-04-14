@@ -18,9 +18,6 @@ function up(){
     cd $d
 }
 
-# function for generating .gitignore files
-function gi() { curl -sLw n https://www.gitignore.io/api/$@ ;}
-
 # This function allows me to go straight into vimwiki index or interact with the
 # git database without changing directory.
 function vimwiki() {
