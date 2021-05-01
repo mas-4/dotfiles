@@ -13,6 +13,10 @@ Plug 'jparise/vim-graphql'                          " graphql syntax
 Plug 'Vimjas/vim-python-pep8-indent'                " pep8 indenting
 Plug 'jiangmiao/auto-pairs'                         " auto closing
 Plug 'godlygeek/tabular'                            " Easy align tabular data
+" Prettier
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 
 " Fuzzy Finder (control-p)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
