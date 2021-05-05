@@ -22,6 +22,8 @@ nmap <C-n>          :NERDTreeToggle<CR>
 
 nnoremap <Leader>r  :source $MYVIMRC<CR>
 
+nnoremap <Leader>p  :Prettier<CR>
+
 " Toggle syntax
 nnoremap <Leader>s  :if exists("g:syntax_on") <Bar> syntax off <Bar> else <Bar> syntax enable <Bar> endif <CR>
 
@@ -32,10 +34,10 @@ map <Leader>d       :! mupdf $(echo % \| sed 's/tex$/pdf/') & disown<CR><CR>
 map <Leader>-    :! make build && make deploy<CR><CR>
 
 " Copy to primary and clipboard
-noremap <Leader>y   "*y
-noremap <Leader>p   "*p
-noremap <Leader>Y   "+y
-noremap <Leader>P   "+p
+" noremap <Leader>y   "*y
+" noremap <Leader>p   "*p
+" noremap <Leader>Y   "+y
+" noremap <Leader>P   "+p
 
 " Tab navigation like Firefox.
 nnoremap <C-t>      :tabnew<CR>

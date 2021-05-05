@@ -4,6 +4,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'stevearc/vim-arduino'
+Plug 'lervag/vimtex'
 
 " Extra syntax
 " Plug 'styled-components/vim-styled-components'    " Styled components
