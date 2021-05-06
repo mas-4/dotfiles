@@ -13,5 +13,6 @@ echo "Decrypting and importing secrets"
 yadm decrypt
 gpg --import .secrets/mas88/mas88.key
 
+sudo pacman -S zsh
 echo "Installing omz"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
