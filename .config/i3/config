@@ -1,7 +1,7 @@
 set $mod Mod4
 
 # --------------------- Style -------------------- #
-font pango:hack 12
+font pango:hack 16
 
 for_window [class=".*"] border pixel 0
 
