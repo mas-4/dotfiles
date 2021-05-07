@@ -15,3 +15,10 @@ source $ZSH/oh-my-zsh.sh
 alias l='ls -F'
 
 setopt HIST_IGNORE_SPACE
+
+export PATH="/home/pi/.local/bin/:$PATH"
+source ulaan.env
+alias ipython='ipython3 --TerminalInteractiveShell.editing_mode=vi'
+export TERM=vt100
+alias python='python3'
+alias pip='pip3'
