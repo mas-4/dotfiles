@@ -5,6 +5,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'stevearc/vim-arduino'
 Plug 'lervag/vimtex'
+Plug 'lepture/vim-jinja'
 
 " Extra syntax
 " Plug 'styled-components/vim-styled-components'    " Styled components
