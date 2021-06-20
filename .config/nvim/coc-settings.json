@@ -1,4 +1,8 @@
 {
     "cSpellExt.enableDictionaries": ["french"],
     "cSpell.language": "en,fr",
+    "cSpell.enabledLanguageIds": [
+        "markdown",
+        "plaintext"
+    ]
 }
