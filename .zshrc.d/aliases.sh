@@ -56,6 +56,7 @@ alias pu='pip install --upgrade pip'
 alias pi='pip install'
 alias pupgradeall='pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U'
 alias newvenv='venv && v && pu'
+alias newvenvi='venv && v && pu && pi -r requirements.txt'
 
 #############
 ## vimwiki ##
