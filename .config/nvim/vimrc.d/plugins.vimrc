@@ -24,7 +24,6 @@ Plug 'prettier/vim-prettier', {
 " Fuzzy Finder (control-p)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'alok/notational-fzf-vim'
 
 " Simple functionality improvements
 Plug 'machakann/vim-sandwich'
@@ -35,9 +34,6 @@ Plug 'ntpeters/vim-better-whitespace'               " better whitespace detectio
 Plug 'scrooloose/nerdtree'
 
 Plug 'tpope/vim-fugitive'
-
-" Vimwiki
-Plug 'vimwiki/vimwiki', {'branch': 'dev'}
 
 
 " Airline
