@@ -26,37 +26,13 @@ let g:NERDTreeIndicatorMapCustom = {
 " For some reason the command line got doubled
 set cmdheight=1
 
-" The vimwiki plugin tries to rewrite coc's tab auto-complete
-let g:vimwiki_table_mappings = 0
-
-" Make vimwiki markdown again
-let g:vimwiki_list = [{'path': '~/vimwiki/',
-                      \ 'syntax': 'markdown', 'ext': '.md'}]
-let g:vimwiki_global_ext = 0
-
 " Disable whitespace highlighting for current line
 let g:go_highlight_trailing_whitespace_error=0
-
-" Set home dir for notational-fzf-vim
-let g:nv_search_paths = ['~/vimwiki/wiki']
-
-" Arduino stuff
-let g:arduino_cmd = '/usr/share/arduino/arduino'
-
-if !exists("g:arduino_upload_command")
-    let g:arduino_upload_command = "arduino --upload"
-endif
-
-function! ArduinoCompileAndUpload()
-    silent !clear
-    execute "!" . g:arduino_upload_command . " " . bufname("%")
-endfunction
-
-nnoremap <buffer> <localleader>u :call ArduinoCompileAndUpload()<cr>
 
 " Vimtex
 let g:tex_flavor='latex'
 let g:vimtex_view_method='zathura'
 let g:vimtex_quickfix_mode=0
-set conceallevel=1
-let g:tex_conceal='abdmg'
+
+" rainbow brakcets
+let g:rainbow_active = 1
