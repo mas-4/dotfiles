@@ -30,6 +30,9 @@ nnoremap <Leader>s  :if exists("g:syntax_on") <Bar> syntax off <Bar> else <Bar> 
 " Open tex preview
 map <Leader>d       :LLPStartPreview<CR><CR>
 
+" White space
+map <Leader>ws      :StripWhitespace<CR><CR>
+
 " Tab navigation like Firefox.
 nnoremap <C-t>      :tabnew<CR>
 inoremap <C-t>      <Esc>:tabnew<CR>
