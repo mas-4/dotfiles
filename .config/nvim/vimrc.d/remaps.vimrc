@@ -28,10 +28,8 @@ nnoremap <Leader>p  :Prettier<CR>
 nnoremap <Leader>s  :if exists("g:syntax_on") <Bar> syntax off <Bar> else <Bar> syntax enable <Bar> endif <CR>
 
 " Open tex preview
-map <Leader>d       :! mupdf $(echo % \| sed 's/tex$/pdf/') & disown<CR><CR>
-
-" Publish make build && make deploy
-map <Leader>-    :! make build && make deploy<CR><CR>
+"map <Leader>d       :! mupdf $(echo % \| sed 's/tex$/pdf/') & disown<CR><CR>
+map <Leader>d       :LLPStartPreview<CR><CR>
 
 " Copy to primary and clipboard
 " noremap <Leader>y   "*y
@@ -44,9 +42,6 @@ nnoremap <C-t>      :tabnew<CR>
 inoremap <C-t>      <Esc>:tabnew<CR>
 inoremap <C-W>      <Esc>:tabclose<CR>
 nnoremap <C-W>      :tabclose<CR>
-
-" Notational FZF
-nnoremap <c-y> :NV<CR>
 
 " Autoindent return to loc
 map <F7> gg=G<C-o><C-o>

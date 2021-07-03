@@ -5,6 +5,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'stevearc/vim-arduino'
 Plug 'lervag/vimtex'
+Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 Plug 'lepture/vim-jinja'
 
 " Extra syntax
