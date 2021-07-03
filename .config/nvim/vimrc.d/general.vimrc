@@ -45,12 +45,3 @@ set lazyredraw
 set redrawtime=10000
 set synmaxcol=180
 set re=1
-
-" required by coc
-set hidden
-set nobackup
-set nowritebackup
-set cmdheight=1
-set updatetime=300
-set shortmess+=c
-set signcolumn=yes
