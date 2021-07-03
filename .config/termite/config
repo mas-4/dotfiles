@@ -1,5 +1,5 @@
 [options]
-font = Hack 16
+font = Hack Nerd Font 16
 scrollback_lines = 10000
 allow_bold = true
 #audible_bell = false

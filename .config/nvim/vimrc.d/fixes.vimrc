@@ -4,6 +4,7 @@ hi Search cterm=bold ctermbg=3 ctermfg=8
 
 let g:python3_host_prog = '/usr/bin/python3'
 
+" echo g:webdevicons_conceal_nerdtree_brackets
 " For NerdtreeGit
 let g:NERDTreeIndicatorMapCustom = {
     \ "Modified"  : "✹",
@@ -31,3 +32,5 @@ let g:vimtex_quickfix_mode=0
 
 " rainbow brakcets
 let g:rainbow_active = 1
+
+set guifont=Hack\ Nerd\ Font\ 11
