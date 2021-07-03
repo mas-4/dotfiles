@@ -15,6 +15,9 @@ Plug 'ryanoasis/vim-devicons'                           " pretty icons everywher
 Plug 'luochen1990/rainbow'                              " rainbow parenthesis
 Plug 'gregsexton/MatchTag'                              " highlight matching html tags
 Plug 'Jorengarenar/vim-MvVis'                           " move visual selection
+Plug 'lervag/vimtex'
+Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
+Plug 'lepture/vim-jinja'
 
 " Special syntaxes
 Plug 'stevearc/vim-arduino'

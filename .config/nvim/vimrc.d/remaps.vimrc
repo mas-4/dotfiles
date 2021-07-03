@@ -27,6 +27,9 @@ nnoremap <Leader>p  :Prettier<CR>
 " Toggle syntax
 nnoremap <Leader>s  :if exists("g:syntax_on") <Bar> syntax off <Bar> else <Bar> syntax enable <Bar> endif <CR>
 
+" Open tex preview
+map <Leader>d       :LLPStartPreview<CR><CR>
+
 " Tab navigation like Firefox.
 nnoremap <C-t>      :tabnew<CR>
 inoremap <C-t>      <Esc>:tabnew<CR>

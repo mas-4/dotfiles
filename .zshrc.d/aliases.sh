@@ -72,7 +72,7 @@ alias vc='vw git commit --verbose'
 ###################################
 ## overrides for system defaults ##
 ###################################
-alias gcc='gcc -Wall -Werror'
+#alias gcc='gcc -Wall -Wextra -O2 -g'
 
 ############
 ## tricks ##
