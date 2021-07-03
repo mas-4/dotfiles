@@ -1,3 +1,3 @@
 [bar/bspwm-l]
-monitor = HDMI-0
+monitor = DP-0
 inherit = bar/bspwm

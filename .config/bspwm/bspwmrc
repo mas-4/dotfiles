@@ -4,7 +4,7 @@
 ##############
 ## monitors ##
 ##############
-bspc monitor HDMI-0 -d i iii v vii ix
+bspc monitor DP-0 -d i iii v vii ix
 bspc monitor DP-2 -d ii iv vi vii x
 
 ##############
