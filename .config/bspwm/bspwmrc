@@ -5,7 +5,7 @@
 ## monitors ##
 ##############
 bspc monitor DP-0 -d i iii v vii ix
-bspc monitor DP-2 -d ii iv vi vii x
+bspc monitor DP-2 -d ii iv vi viii x
 
 ##############
 ## settings ##
@@ -29,15 +29,19 @@ bspc rule -a Screenkey manage=off
 ##############
 ## services ##
 ##############
+
 xss-lock --transfer-sleep-lock -- betterlockscreen -l &
 
 nitrogen --restore &
 
+pkill polybar
 polybar main &
 polybar bspwm-l &
 polybar bspwm-r &
 
+pkill sxhkd
 sxhkd &
-#compton --config ~/.config/compton/compton.conf --backend glx --blur-method \
-#    kawase  --blur-background --blur-strength 20 &
+pkill compton
+compton --config ~/.config/compton/compton.conf --backend glx --blur-method \
+    kawase  --blur-background --blur-strength 20 &
 wname LG3d
