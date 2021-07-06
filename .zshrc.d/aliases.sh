@@ -93,8 +93,5 @@ alias weather='curl wttr.in/$CITY'
 export spider="192.168.0.152:6801"
 alias cancelspider="curl http://${spider}/cancel.json -d project=newscrawler -d"
 
-conda () {
-    sudo docker run -i -t -p 8888:8888 continuumio/anaconda3 /bin/bash
-}
 
 alias histstats="history | awk '{CMD[\$2]++;count++;}END { for (a in CMD)print CMD[a] \" \" CMD[a]/count*100 \"% \" a;}' | grep -v './' | column -c3 -s ' ' -t | sort -nr | nl |  head -n10"
