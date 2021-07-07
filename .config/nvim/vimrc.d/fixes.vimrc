@@ -33,4 +33,4 @@ let g:vimtex_quickfix_mode=0
 " rainbow brakcets
 let g:rainbow_active = 1
 
-set guifont=Hack\ Nerd\ Font\ 11
+set guifont=Hack\ Nerd\ Font:h20
