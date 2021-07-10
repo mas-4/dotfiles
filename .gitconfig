@@ -1,9 +1,8 @@
 [user]
-	name = malan88
+	name = mas
 	email = m@stdwtr.io
 [core]
 	editor = nvim
-	excludesfile = /home/malan/.gitinore_global
 [alias]
 	graph = log --oneline --decorate --graph --all
 	s = status
