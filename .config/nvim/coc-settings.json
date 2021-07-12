@@ -17,7 +17,8 @@
   ],
 
   // suggest settings
-  "suggest.noselect": false,
+  "suggest.enablePreselect": false,
+  "suggest.noselect": true
   "suggest.detailField": "abbr",
   "suggest.snippetIndicator": "",
   "suggest.removeDuplicateItems": true,
