@@ -7,6 +7,6 @@ source $HOME/.config/nvim/vimrc.d/fixes.vimrc
 source $HOME/.config/nvim/vimrc.d/airline.vimrc
 source $HOME/.config/nvim/vimrc.d/coc.vimrc
 source $HOME/.config/nvim/vimrc.d/telescope.vimrc
-source $HOME/.config/nvim/vimrc.d/nightflight2_modified.vim
 
+"source $HOME/.config/nvim/vimrc.d/nightflight2_modified.vim
 "set signcolumn=no " Get rid of hideous grey bar on the left

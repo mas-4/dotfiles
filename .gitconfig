@@ -11,14 +11,15 @@
 	co = checkout
     ec = config --global -e
 	ctags = !.git/hooks/ctags
-    dc = diff --cached 
-    ds = diff --staged 
+    ds = diff --staged
 	ignore = "!gi() { curl -sL https://www.toptal.com/developers/gitignore/api/$@ ;}; gi"
 [pull]
 	rebase = true
-[url "git@github.com:malan88/"]
+[url "git@github.com:mas-4/"]
     insteadOf = me:
 [url "git@github.com:Anno-Wiki/"]
     insteadOf = icc:
+[url "git@github.com:MBS-Standoffs/"]
+    insteadOf = mbs:
 [init]
 	defaultBranch = main

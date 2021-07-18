@@ -23,9 +23,13 @@ Plug 'lepture/vim-jinja'
 Plug 'stevearc/vim-arduino'
 Plug 'lervag/vimtex'                                    " latex
 Plug 'lepture/vim-jinja'                                " jinja
+
 Plug 'MaxMEllon/vim-jsx-pretty'                         " jsx syntax
+Plug 'sheerun/vim-polyglot'                             " javascript highlighting
+
 Plug 'jparise/vim-graphql'                              " graphql syntax
 Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}  " better python
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
 " Prettier
 Plug 'prettier/vim-prettier', {
