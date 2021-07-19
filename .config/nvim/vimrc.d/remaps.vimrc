@@ -41,3 +41,5 @@ nnoremap <C-W>      :tabclose<CR>
 
 " Autoindent return to loc
 map <F7> gg=G<C-o><C-o>
+
+nnoremap <Leader>i :CocCommand pyright.organizeimports<CR><CR>
