@@ -30,3 +30,7 @@ font:
         family: Hack
         style: Regular
     size: 16
+window:
+  dimensions:
+    columns: 80
+    lines: 25
