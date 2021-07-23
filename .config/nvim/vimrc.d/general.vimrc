@@ -1,4 +1,4 @@
-" syntax higlighting
+"syntax higlighting
 filetype plugin indent on
 syntax enable
 
@@ -32,9 +32,14 @@ set ruler
 " search
 set incsearch hlsearch smartcase ignorecase
 
-" filetype js indent
+" filetype settings
 autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 autocmd Filetype javascriptreact setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+autocmd Filetype css setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+autocmd Filetype html setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+autocmd Filetype jinja setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+au BufRead,BufNewFile *.htmx set filetype=jinja
+au BufRead /tmp/psql.edit.* set syntax=sql
 
 " Added per Blacksuan advice
 " performance tweaks
