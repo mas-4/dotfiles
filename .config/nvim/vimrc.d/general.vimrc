@@ -34,6 +34,7 @@ set incsearch hlsearch smartcase ignorecase
 
 " filetype settings
 autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+autocmd Filetype typescript setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 autocmd Filetype javascriptreact setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 autocmd Filetype css setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 autocmd Filetype html setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
@@ -47,6 +48,8 @@ set nocursorline
 set nocursorcolumn
 set scrolljump=5
 set lazyredraw
-set redrawtime=10000
 set synmaxcol=180
-set re=1
+
+" These seem very bad and cause crashing in js files
+" set redrawtime=10000
+" set re=1

@@ -5,16 +5,16 @@
   // normal settings
   "coc.preferences.colorSupport": true,
   "coc.preferences.snippetStatusText": "Ⓢ ",
-  "coc.preferences.formatOnSaveFiletypes": [
-    "javascript",
-    "html",
-    "css",
-    "json",
-    "markdown",
-    "typescript",
-    "python",
-    "dart"
-  ],
+  //  "coc.preferences.formatOnSaveFiletypes": [
+  //    "javascript",
+  //    "html",
+  //    "css",
+  //    "json",
+  //    "markdown",
+  //    "typescript",
+  //    "python",
+  //    "dart"
+  //  ],
 
   // suggest settings
   "suggest.enablePreselect": false,

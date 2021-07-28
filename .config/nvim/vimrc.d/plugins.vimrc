@@ -1,14 +1,8 @@
-" auto-install vim-plug
-if empty(glob('~/.config/nvim/autoload/plug.vim'))
-  silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  autocmd VimEnter * PlugInstall | source $MYVIMRC
-endif
-
 call plug#begin('~/.vim/plugged')
 
 " CoC
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'} 
+"Plug 'file://'.expand('~/.vim/plugged/coc.nvim')
 
 " Prettiness
 Plug 'ryanoasis/vim-devicons'                           " pretty icons everywhere

@@ -41,7 +41,5 @@ polybar bspwm-r &
 
 pkill sxhkd
 sxhkd &
-pkill compton
-compton --config ~/.config/compton/compton.conf --backend glx --blur-method \
-    kawase  --blur-background --blur-strength 20 &
 wname LG3d
+bspc monitor 'DP-2' -g 3440x2150+1920+0
