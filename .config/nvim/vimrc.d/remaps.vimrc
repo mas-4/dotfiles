@@ -36,7 +36,7 @@ map <Leader>ws      :StripWhitespace<CR><CR>
 " Tab navigation like Firefox.
 nnoremap <C-t>      :tabnew<CR>
 inoremap <C-t>      <Esc>:tabnew<CR>
-inoremap <C-W>      <Esc>:tabclose<CR>
+inoremap <C-W>      <Esc>:tabclose< CR>
 nnoremap <C-W>      :tabclose<CR>
 
 " Autoindent return to loc
@@ -44,3 +44,10 @@ map <F7> gg=G<C-o><C-o>
 
 " Coc remaps
 nnoremap <Leader>i :CocCommand pyright.organizeimports<CR><CR>
+
+" Primeagen suggestions https://youtu.be/hSHATqh8svM
+nnoremap Y y$
+nnoremap n nzzzv
+nnoremap N Nzzzv
+nnoremap J mzJ`z
+
