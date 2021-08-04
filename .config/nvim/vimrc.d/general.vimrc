@@ -44,11 +44,11 @@ au BufRead /tmp/psql.edit.* set syntax=sql
 
 " Added per Blacksuan advice
 " performance tweaks
-set nocursorline
-set nocursorcolumn
-set scrolljump=5
-set lazyredraw
-set synmaxcol=180
+" set nocursorline
+" set nocursorcolumn
+" set scrolljump=5
+" set lazyredraw
+" set synmaxcol=180
 
 " These seem very bad and cause crashing in js files
 " set redrawtime=10000

@@ -11,9 +11,8 @@ let g:coc_global_extensions = [
     \ 'coc-rls',
     \ 'coc-snippets',
     \ 'coc-spell-checker',
+    \ 'coc-styled-components',
     \ 'coc-tsserver',
     \ 'coc-yaml',
     \ 'coc-yank'
     \ ]
-
-"    \ 'coc-styled-components',

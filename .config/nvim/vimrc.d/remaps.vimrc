@@ -2,7 +2,7 @@
 nmap <C-C>          :noh<CR>
 
 " disable ex mode
-:map Q              <Nop>
+map Q              <Nop>
 
 " turn off f1 = help
 nnoremap <F1>       <nop>
