@@ -49,6 +49,9 @@ Plug 'wellle/tmux-complete.vim'                         " complete words from a 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+" Color
+Plug 'ghifarit53/tokyonight-vim'
+
 call plug#end()
 
 

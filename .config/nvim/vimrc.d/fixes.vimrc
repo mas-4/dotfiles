@@ -33,4 +33,10 @@ let g:vimtex_quickfix_mode=0
 " rainbow brakcets
 let g:rainbow_active = 1
 
-set guifont=Hack\ Nerd\ Font:h20
+"set termguicolors
+"let g:tokyonight_style = 'storm'
+"let g:tokyonight_enable_italic = 1
+"let g:airline_theme = 'tokyonight'
+"colorscheme tokyonight
+"set guifont=Hack\ Nerd\ Font:h20
+"set guifont=FiraCode\ NF:h20
