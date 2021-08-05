@@ -19,7 +19,10 @@ Plug 'lervag/vimtex'                                    " latex
 Plug 'lepture/vim-jinja'                                " jinja
 
 Plug 'MaxMEllon/vim-jsx-pretty'                         " jsx syntax
-Plug 'sheerun/vim-polyglot'                             " javascript highlighting
+
+" Don't use this plugin, keeping it here for future reference. It disables swap
+" files and sets autoread
+" Plug 'sheerun/vim-polyglot'                             " javascript highlighting
 
 Plug 'jparise/vim-graphql'                              " graphql syntax
 Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}  " better python
