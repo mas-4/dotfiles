@@ -62,8 +62,9 @@
   "diagnostic.hintSign": "ஐ",
   "diagnostic.checkCurrentLine": true,
   "diagnostic.virtualTextPrefix": " ❯❯❯ ",
-  "diagnostic.virtualText": true,
-  "diagnostic.enableMessage": "never",
+  "diagnostic.virtualText": false,
+  "diagnostic.enableMessage": "always",
+  "diagnostic.messageTarget": "float",
 
   // other language specific settings
   "html.autoClosingTags": true,

@@ -26,6 +26,7 @@ Plug 'MaxMEllon/vim-jsx-pretty'                         " jsx syntax
 
 Plug 'jparise/vim-graphql'                              " graphql syntax
 Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}  " better python
+Plug 'Vimjas/vim-python-pep8-indent'                    " Python indenting
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
 " Prettier
