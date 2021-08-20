@@ -69,5 +69,6 @@
   // other language specific settings
   "html.autoClosingTags": true,
   "prettier.proseWrap": "always",
-  "python.linting.mypyEnabled": true
+  "python.linting.mypyEnabled": true,
+  "python.formatting.provider": "autopep8"
 }

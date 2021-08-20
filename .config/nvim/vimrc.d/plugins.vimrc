@@ -1,5 +1,8 @@
 call plug#begin('~/.vim/plugged')
 
+" Wakatime
+Plug 'wakatime/vim-wakatime'
+
 " CoC
 Plug 'neoclide/coc.nvim', {'branch': 'release'} 
 "Plug 'file://'.expand('~/.vim/plugged/coc.nvim')

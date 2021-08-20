@@ -40,3 +40,13 @@ let g:rainbow_active = 1
 "colorscheme tokyonight
 "set guifont=Hack\ Nerd\ Font:h20
 "set guifont=FiraCode\ NF:h20
+
+
+" This gets rid of the nasty _ italic bug in tpope's vim-markdown
+" block $$...$$
+syn region math start=/\$\$/ end=/\$\$/
+" inline math
+syn match math '\$[^$].\{-}\$'
+
+" actually highlight the region we defined as "math"
+hi link math Statement
