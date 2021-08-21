@@ -4,8 +4,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'wakatime/vim-wakatime'
 
 " CoC
-Plug 'neoclide/coc.nvim', {'branch': 'release'} 
-"Plug 'file://'.expand('~/.vim/plugged/coc.nvim')
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'file://'.expand('~/.vim/plugged/coc.nvim')       " For debugging coc
 
 " Prettiness
 Plug 'ryanoasis/vim-devicons'                           " pretty icons everywhere
@@ -20,12 +20,9 @@ Plug 'lepture/vim-jinja'
 Plug 'stevearc/vim-arduino'
 Plug 'lervag/vimtex'                                    " latex
 Plug 'lepture/vim-jinja'                                " jinja
-
+Plug 'plasticboy/vim-markdown'                          " markdown
 Plug 'MaxMEllon/vim-jsx-pretty'                         " jsx syntax
 
-" Don't use this plugin, keeping it here for future reference. It disables swap
-" files and sets autoread
-" Plug 'sheerun/vim-polyglot'                             " javascript highlighting
 
 Plug 'jparise/vim-graphql'                              " graphql syntax
 Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}  " better python
@@ -59,6 +56,8 @@ Plug 'vim-airline/vim-airline-themes'
 " Color
 Plug 'ghifarit53/tokyonight-vim'
 
+" Verboten for bugginess, saved for reminder
+" Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 

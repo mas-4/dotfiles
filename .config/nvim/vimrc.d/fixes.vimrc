@@ -44,9 +44,11 @@ let g:rainbow_active = 1
 
 " This gets rid of the nasty _ italic bug in tpope's vim-markdown
 " block $$...$$
-syn region math start=/\$\$/ end=/\$\$/
+"syn region math start=/\$\$/ end=/\$\$/
 " inline math
-syn match math '\$[^$].\{-}\$'
+"syn match math '\$[^$].\{-}\$'
 
 " actually highlight the region we defined as "math"
-hi link math Statement
+"hi link math Statement
+
+let g:vim_markdown_math = 1
