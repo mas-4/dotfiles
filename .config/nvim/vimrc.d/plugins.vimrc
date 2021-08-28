@@ -47,6 +47,7 @@ Plug 'ntpeters/vim-better-whitespace'                   " better whitespace dete
 Plug 'scrooloose/nerdtree'                              " nerdtree
 Plug 'psliwka/vim-smoothie'                             " some very smooth ass scrolling
 Plug 'wellle/tmux-complete.vim'                         " complete words from a tmux panes
+Plug 'godlygeek/tabular'
 
 
 " Airline
