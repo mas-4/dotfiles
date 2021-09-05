@@ -17,9 +17,8 @@ Plug 'lepture/vim-jinja'
 Plug 'stevearc/vim-arduino'
 Plug 'lervag/vimtex'                                    " latex
 Plug 'lepture/vim-jinja'                                " jinja
-Plug 'plasticboy/vim-markdown'                          " markdown
+
 Plug 'MaxMEllon/vim-jsx-pretty'                         " jsx syntax
-"Plug 'vimwiki/vimwiki'
 
 
 Plug 'jparise/vim-graphql'                              " graphql syntax
@@ -56,7 +55,9 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'psliwka/vim-smoothie'                             " some very smooth ass scrolling
 
 " Verboten for bugginess, saved for reminder
-" Plug 'sheerun/vim-polyglot'
+" Plug 'sheerun/vim-polyglot'   " Enables autoread and disables swapping
+" Plug 'plasticboy/vim-markdown' " Disables wrap quoting (i.e. prepending > on wrap)
+" Plug 'vimwiki/vimwiki'  " Messes up coc completion with tab
 call plug#end()
 
 
