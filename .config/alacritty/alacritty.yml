@@ -29,7 +29,7 @@ font:
     normal:
         family: Hack
         style: Regular
-    size: 16
+    size: 14
 window:
   dimensions:
     columns: 80
