@@ -5,14 +5,11 @@ Plug 'wakatime/vim-wakatime'
 
 " CoC
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-"Plug 'file://'.expand('~/.vim/plugged/coc.nvim')       " For debugging coc
 
 " Prettiness
 Plug 'ryanoasis/vim-devicons'                           " pretty icons everywhere
 Plug 'luochen1990/rainbow'                              " rainbow parenthesis
 Plug 'gregsexton/MatchTag'                              " highlight matching html tags
-Plug 'Jorengarenar/vim-MvVis'                           " move visual selection
-Plug 'lervag/vimtex'
 Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 Plug 'lepture/vim-jinja'
 
@@ -22,6 +19,7 @@ Plug 'lervag/vimtex'                                    " latex
 Plug 'lepture/vim-jinja'                                " jinja
 Plug 'plasticboy/vim-markdown'                          " markdown
 Plug 'MaxMEllon/vim-jsx-pretty'                         " jsx syntax
+"Plug 'vimwiki/vimwiki'
 
 
 Plug 'jparise/vim-graphql'                              " graphql syntax
@@ -45,7 +43,6 @@ Plug 'machakann/vim-sandwich'                           " alt surround
 Plug 'christoomey/vim-tmux-navigator'                   " easy navigation in tmux
 Plug 'ntpeters/vim-better-whitespace'                   " better whitespace detection
 Plug 'scrooloose/nerdtree'                              " nerdtree
-Plug 'psliwka/vim-smoothie'                             " some very smooth ass scrolling
 Plug 'wellle/tmux-complete.vim'                         " complete words from a tmux panes
 Plug 'godlygeek/tabular'
 
@@ -55,7 +52,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 " Color
-Plug 'ghifarit53/tokyonight-vim'
+"Plug 'ghifarit53/tokyonight-vim'
+Plug 'psliwka/vim-smoothie'                             " some very smooth ass scrolling
 
 " Verboten for bugginess, saved for reminder
 " Plug 'sheerun/vim-polyglot'

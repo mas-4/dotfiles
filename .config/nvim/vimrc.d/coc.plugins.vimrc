@@ -14,5 +14,6 @@ let g:coc_global_extensions = [
     \ 'coc-styled-components',
     \ 'coc-tsserver',
     \ 'coc-yaml',
-    \ 'coc-yank'
+    \ 'coc-yank',
+    \ 'coc-markdownlint'
     \ ]
