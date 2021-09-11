@@ -4,7 +4,6 @@ hi Search cterm=bold ctermbg=3 ctermfg=8
 
 let g:python3_host_prog = '/usr/bin/python3'
 
-" echo g:webdevicons_conceal_nerdtree_brackets
 " For NerdtreeGit
 let g:NERDTreeIndicatorMapCustom = {
     \ "Modified"  : "✹",
@@ -33,22 +32,6 @@ let g:vimtex_quickfix_mode=0
 " rainbow brakcets
 let g:rainbow_active = 1
 
-"set termguicolors
-"let g:tokyonight_style = 'storm'
-"let g:tokyonight_enable_italic = 1
-"let g:airline_theme = 'tokyonight'
-"colorscheme tokyonight
-"set guifont=Hack\ Nerd\ Font:h20
-"set guifont=FiraCode\ NF:h20
-
-
-" This gets rid of the nasty _ italic bug in tpope's vim-markdown
-" block $$...$$
-"syn region math start=/\$\$/ end=/\$\$/
-" inline math
-"syn match math '\$[^$].\{-}\$'
-
-" actually highlight the region we defined as "math"
-"hi link math Statement
-
+" vim markdown
 let g:vim_markdown_math = 1
+let g:vim_markdown_new_list_item_indent = 2

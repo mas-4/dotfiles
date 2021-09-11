@@ -43,7 +43,9 @@ Plug 'christoomey/vim-tmux-navigator'                   " easy navigation in tmu
 Plug 'ntpeters/vim-better-whitespace'                   " better whitespace detection
 Plug 'scrooloose/nerdtree'                              " nerdtree
 Plug 'wellle/tmux-complete.vim'                         " complete words from a tmux panes
+
 Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown' " These are a pair, markdown second
 
 
 " Airline
@@ -56,7 +58,6 @@ Plug 'psliwka/vim-smoothie'                             " some very smooth ass s
 
 " Verboten for bugginess, saved for reminder
 " Plug 'sheerun/vim-polyglot'   " Enables autoread and disables swapping
-" Plug 'plasticboy/vim-markdown' " Disables wrap quoting (i.e. prepending > on wrap)
 " Plug 'vimwiki/vimwiki'  " Messes up coc completion with tab
 call plug#end()
 
