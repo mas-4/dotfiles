@@ -48,3 +48,8 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 " Formatting selected code.
 xmap <leader>ff  <Plug>(coc-format)
 nmap <leader>ff  <Plug>(coc-format)
+
+try
+nmap <silent> [c :call CocAction('diagnosticNext')<cr>
+nmap <silent> ]c :call CocAction('diagnosticPrevious')<cr>
+endtry
