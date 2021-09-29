@@ -27,9 +27,9 @@ Plug 'Vimjas/vim-python-pep8-indent'                    " Python indenting
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
 " Prettier
-Plug 'prettier/vim-prettier', {
-  \ 'do': 'yarn install',
-  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+" Plug 'prettier/vim-prettier', {
+"   \ 'do': 'yarn install',
+"   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 
 " telescope
 Plug 'nvim-lua/popup.nvim'

@@ -70,5 +70,6 @@
   "html.autoClosingTags": true,
   "prettier.proseWrap": "always",
   "python.linting.mypyEnabled": true,
-  "python.formatting.provider": "autopep8"
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "/usr/bin/black"
 }
