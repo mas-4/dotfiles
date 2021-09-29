@@ -5,7 +5,6 @@ let g:coc_global_extensions = [
     \ 'coc-go',
     \ 'coc-html',
     \ 'coc-json',
-    \ 'coc-pairs',
     \ 'coc-prettier',
     \ 'coc-pyright',
     \ 'coc-rls',
@@ -17,3 +16,5 @@ let g:coc_global_extensions = [
     \ 'coc-yank',
     \ 'coc-markdownlint'
     \ ]
+
+"\ 'coc-pairs',
