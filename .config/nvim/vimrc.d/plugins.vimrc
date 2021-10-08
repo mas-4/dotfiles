@@ -3,6 +3,8 @@ call plug#begin('~/.vim/plugged')
 " Wakatime
 Plug 'wakatime/vim-wakatime'
 
+Plug 'habamax/vim-godot'
+
 " CoC
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
