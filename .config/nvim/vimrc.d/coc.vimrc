@@ -54,4 +54,5 @@ nmap <silent> [c :call CocAction('diagnosticNext')<cr>
 nmap <silent> ]c :call CocAction('diagnosticPrevious')<cr>
 endtry
 
+" Floating warnings/diagnostics are horrible without this redefinition
 hi Pmenu ctermbg=black ctermfg=white
