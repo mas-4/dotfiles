@@ -17,4 +17,4 @@ alias l='ls -F'
 setopt HIST_IGNORE_SPACE
 xbindkeys -p
 
-#eval "$(pyenv init -)"
+eval "$(pyenv init -)"
