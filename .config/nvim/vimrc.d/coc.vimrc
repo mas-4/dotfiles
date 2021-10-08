@@ -53,3 +53,5 @@ try
 nmap <silent> [c :call CocAction('diagnosticNext')<cr>
 nmap <silent> ]c :call CocAction('diagnosticPrevious')<cr>
 endtry
+
+hi Pmenu ctermbg=black ctermfg=white
