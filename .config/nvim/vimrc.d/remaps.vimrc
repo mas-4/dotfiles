@@ -49,4 +49,5 @@ nnoremap <Leader>i :CocCommand pyright.organizeimports<CR><CR>
 nnoremap Y y$
 nnoremap n nzzzv
 nnoremap N Nzzzv
-nnoremap J mzJ`z
+" This remap eliminates the ability to have numbered joins like 5J
+"nnoremap J mzJ`z
