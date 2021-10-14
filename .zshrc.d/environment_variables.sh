@@ -5,3 +5,5 @@ export PASSWORD_STORE_ENABLE_EXTENSIONS=true
 export GPG_TTY=$(tty)
 export ZSH=$HOME/.oh-my-zsh
 export PATH=$HOME/bin:$PATH
+export CC=/usr/bin/clang
+export CXX=/usr/bin/clang++
