@@ -3,6 +3,8 @@ call plug#begin('~/.vim/plugged')
 " Wakatime
 Plug 'wakatime/vim-wakatime'
 
+Plug 'github/copilot.vim'
+
 Plug 'habamax/vim-godot'
 
 " CoC
