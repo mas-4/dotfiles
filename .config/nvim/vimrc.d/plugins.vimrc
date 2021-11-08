@@ -1,39 +1,33 @@
 call plug#begin('~/.vim/plugged')
 
-" Wakatime
-Plug 'wakatime/vim-wakatime'
-
 Plug 'github/copilot.vim'
 
-Plug 'habamax/vim-godot'
+" Wakatime
+Plug 'wakatime/vim-wakatime'
 
 " CoC
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Prettiness
-Plug 'ryanoasis/vim-devicons'                           " pretty icons everywhere
-Plug 'luochen1990/rainbow'                              " rainbow parenthesis
-Plug 'gregsexton/MatchTag'                              " highlight matching html tags
+Plug 'ryanoasis/vim-devicons'                               " pretty icons everywhere
+Plug 'luochen1990/rainbow'                                  " rainbow parenthesis
+Plug 'gregsexton/MatchTag'                                  " highlight matching html tags
 Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 Plug 'lepture/vim-jinja'
 
 " Special syntaxes
 Plug 'stevearc/vim-arduino'
-Plug 'lervag/vimtex'                                    " latex
-Plug 'lepture/vim-jinja'                                " jinja
+Plug 'lervag/vimtex'                                        " latex
+Plug 'lepture/vim-jinja'                                    " jinja
+Plug 'habamax/vim-godot'                                    " godot
+Plug 'MaxMEllon/vim-jsx-pretty'                             " jsx syntax
+Plug 'ledger/vim-ledger'                                    " ledger
 
-Plug 'MaxMEllon/vim-jsx-pretty'                         " jsx syntax
 
-
-Plug 'jparise/vim-graphql'                              " graphql syntax
-Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}  " better python
-Plug 'Vimjas/vim-python-pep8-indent'                    " Python indenting
+Plug 'jparise/vim-graphql'                                  " graphql syntax
+Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}      " better python
+Plug 'Vimjas/vim-python-pep8-indent'                        " Python indenting
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
-
-" Prettier
-" Plug 'prettier/vim-prettier', {
-"   \ 'do': 'yarn install',
-"   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 
 " telescope
 Plug 'nvim-lua/popup.nvim'
