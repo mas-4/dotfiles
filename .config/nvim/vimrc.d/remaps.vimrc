@@ -51,3 +51,6 @@ nnoremap n nzzzv
 nnoremap N Nzzzv
 " This remap eliminates the ability to have numbered joins like 5J
 "nnoremap J mzJ`z
+
+
+map <Leader>fl      :LedgerAlignBuffer<CR><CR>
