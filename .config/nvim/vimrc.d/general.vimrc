@@ -40,6 +40,7 @@ autocmd Filetype javascriptreact setlocal expandtab tabstop=2 shiftwidth=2 softt
 autocmd Filetype css setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 autocmd Filetype html setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 autocmd Filetype jinja setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+autocmd Filetype ledger setlocal tw=90 tabstop=2
 au BufRead,BufNewFile *.htmx set filetype=jinja
 au BufRead /tmp/psql.edit.* set syntax=sql
 
