@@ -59,5 +59,11 @@ nmap <silent> <F2> :call CocAction('diagnosticNext')<cr>
 nmap <silent> <F1> :call CocAction('diagnosticPrevious')<cr>
 endtry
 
+" Highlight the symbol and its references when holding the cursor.
+autocmd CursorHold * silent call CocActionAsync('highlight')
+
+" Symbol renaming.
+nmap <leader>rn <Plug>(coc-rename)
+
 " Floating warnings/diagnostics are horrible without this redefinition
 hi Pmenu ctermbg=black ctermfg=white
