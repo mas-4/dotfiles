@@ -5,9 +5,10 @@ nmap <C-C>          :noh<CR>
 map Q              <Nop>
 
 " turn off f1 = help
-nnoremap <F1>       <nop>
-inoremap <F1>       <nop>
-vnoremap <F1>       <nop>
+" Commented out so F1 can be next error
+" nnoremap <F1>       <nop>
+" inoremap <F1>       <nop>
+" vnoremap <F1>       <nop>
 
 " toggle between numbering systems when necessary
 nmap <F3>           :exec &nu==&rnu? "se nu!" : "se rnu!"<CR>

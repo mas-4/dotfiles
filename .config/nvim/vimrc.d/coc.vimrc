@@ -49,9 +49,14 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 xmap <leader>ff  <Plug>(coc-format)
 nmap <leader>ff  <Plug>(coc-format)
 
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+
 try
-nmap <silent> [c :call CocAction('diagnosticNext')<cr>
-nmap <silent> ]c :call CocAction('diagnosticPrevious')<cr>
+nmap <silent> <F2> :call CocAction('diagnosticNext')<cr>
+nmap <silent> <F1> :call CocAction('diagnosticPrevious')<cr>
 endtry
 
 " Floating warnings/diagnostics are horrible without this redefinition
