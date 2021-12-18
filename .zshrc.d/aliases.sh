@@ -98,3 +98,4 @@ alias histstats="history | awk '{CMD[\$2]++;count++;}END { for (a in CMD)print C
 
 alias led="hledger --strict"
 alias balance="led balance --value now Assets Liabilities"
+alias finances="cd ~/documents/wiki/fin && tmux"
