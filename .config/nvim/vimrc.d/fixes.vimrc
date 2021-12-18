@@ -40,3 +40,7 @@ let g:vim_markdown_auto_insert_bullets=0
 let g:vim_markdown_new_list_item_indent=0
 au FileType markdown setlocal formatlistpat=^\\s*\\d\\+[.\)]\\s\\+\\\|^\\s*[*+~-]\\s\\+\\\|^\\(\\\|[*#]\\)\\[^[^\\]]\\+\\]:\\s | setlocal comments=n:> | setlocal formatoptions+=cn
 
+let g:copilot_filetypes = {
+            \ 'vim': v:false,
+            \ 'ledger': v:false,
+            \}
