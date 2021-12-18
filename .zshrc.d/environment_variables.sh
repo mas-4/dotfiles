@@ -7,4 +7,4 @@ export ZSH=$HOME/.oh-my-zsh
 export PATH=$HOME/bin:$PATH
 export CC=/usr/bin/clang
 export CXX=/usr/bin/clang++
-export LEDGER_FILE=$HOME/fin/journal.ldg
+export LEDGER_FILE=$HOME/documents/wiki/fin/journal.ldg
