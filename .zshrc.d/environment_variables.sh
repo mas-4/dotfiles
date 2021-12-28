@@ -1,5 +1,5 @@
 export EDITOR=/bin/nvim
-export CITY='Tarpon Springs'
+export CITY='Tarpon%20Springs'
 export HISTORY_IGNORE='(bg|fg|c|ls|pwd|history|exit|make*|* --help)'
 export PASSWORD_STORE_ENABLE_EXTENSIONS=true
 export GPG_TTY=$(tty)
@@ -8,3 +8,4 @@ export PATH=$HOME/bin:$PATH
 export CC=/usr/bin/clang
 export CXX=/usr/bin/clang++
 export LEDGER_FILE=$HOME/documents/wiki/fin/journal.ldg
+export TIMELOG=$HOME/documents/wiki/fin/$(date +%Y)/work.timeclock
