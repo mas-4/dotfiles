@@ -101,5 +101,8 @@ alias balance="led balance --value now Assets Liabilities Work"
 alias finances="cd ~/documents/wiki/fin && tmux"
 alias wiki="cd ~/documents/wiki/ && tmux"
 #alias scrummy="~/bin/scrummy/.venv/bin/python ~/bin/scrummy/main.py"
-alias ti="echo i date '+%Y-%m-%d %H:%M:%S'\$* >>$TIMELOG"
-alias to="echo o date '+%Y-%m-%d %H:%M:%S' >>$TIMELOG"
+export TIMELOG=$HOME/documents/wiki/fin/$(date +%Y)/work.timeclock
+ti() {
+    echo "i $(date '+%Y-%m-%d %H:%M:%S') Income:$1" >>$TIMELOG
+}
+alias to="echo o $(date '+%Y-%m-%d %H:%M:%S') >>$TIMELOG"

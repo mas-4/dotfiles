@@ -8,4 +8,3 @@ export PATH=$HOME/bin:$PATH
 export CC=/usr/bin/clang
 export CXX=/usr/bin/clang++
 export LEDGER_FILE=$HOME/documents/wiki/fin/journal.ldg
-export TIMELOG=$HOME/documents/wiki/fin/$(date +%Y)/work.timeclock
