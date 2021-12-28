@@ -35,9 +35,11 @@ let g:rainbow_active = 1
 " vim markdown
 let g:vim_markdown_math = 1 " enable latex
 let g:vim_markdown_new_list_item_indent = 2
+let g:vim_markdown_folding_disabled=1
 " fixes for auto inserting quotes
 let g:vim_markdown_auto_insert_bullets=0
 let g:vim_markdown_new_list_item_indent=0
+let g:vim_markdown_frontmatter=1
 au FileType markdown setlocal formatlistpat=^\\s*\\d\\+[.\)]\\s\\+\\\|^\\s*[*+~-]\\s\\+\\\|^\\(\\\|[*#]\\)\\[^[^\\]]\\+\\]:\\s | setlocal comments=n:> | setlocal formatoptions+=cn
 
 let g:copilot_filetypes = {
