@@ -105,4 +105,6 @@ export TIMELOG=$HOME/documents/wiki/fin/$(date +%Y)/work.timeclock
 ti() {
     echo "i $(date '+%Y-%m-%d %H:%M:%S') Income:$1" >>$TIMELOG
 }
-alias to="echo o $(date '+%Y-%m-%d %H:%M:%S') >>$TIMELOG"
+to() {
+    echo o $(date '+%Y-%m-%d %H:%M:%S') >>$TIMELOG
+}
