@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'github/copilot.vim'
 
 " Wakatime
-Plug 'wakatime/vim-wakatime'
+" Plug 'wakatime/vim-wakatime'
 
 " CoC
 Plug 'neoclide/coc.nvim', {'branch': 'release'}

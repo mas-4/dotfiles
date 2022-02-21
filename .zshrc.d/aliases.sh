@@ -106,7 +106,7 @@ alias wiki="cd ~/documents/wiki/ && tmux"
 #alias scrummy="~/bin/scrummy/.venv/bin/python ~/bin/scrummy/main.py"
 export TIMELOG=$HOME/documents/wiki/fin/$(date +%Y)/work.timeclock
 ti() {
-    echo "i $(date '+%Y-%m-%d %H:%M:%S') Income:$1" >>$TIMELOG
+    echo "i $(date '+%Y-%m-%d %H:%M:%S') Receivables:$1" >>$TIMELOG
 }
 to() {
     echo o $(date '+%Y-%m-%d %H:%M:%S') >>$TIMELOG
