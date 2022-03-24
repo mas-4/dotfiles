@@ -97,7 +97,7 @@ alias cancelspider="curl http://${spider}/cancel.json -d project=newscrawler -d"
 alias histstats="history | awk '{CMD[\$2]++;count++;}END { for (a in CMD)print CMD[a] \" \" CMD[a]/count*100 \"% \" a;}' | grep -v './' | column -c3 -s ' ' -t | sort -nr | nl |  head -n10"
 
 alias led='hledger --strict'
-alias balance="led balance --value now Assets Liabilities Income:Onto --real"
+alias balance="led balance Assets:Investments Assets:Privacy Assets:People Assets:Savings Assets:Checking Liabilities receivables:onto --value now"
 alias budget="led --empty bal ^assets:budget --auto"
 
 alias finances="cd ~/documents/wiki/fin && tmux"
