@@ -111,3 +111,7 @@ ti() {
 to() {
     echo o $(date '+%Y-%m-%d %H:%M:%S') >>$TIMELOG
 }
+
+alias findopenssh='sudo nmap -p 22 192.168.0.0/24'
+
+alias syncebooks='rsync -azP ~/documents/server pi@192.168.0.74:/home/pi/server/'

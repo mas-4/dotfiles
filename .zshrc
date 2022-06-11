@@ -19,4 +19,4 @@ xbindkeys -p
 
 eval "$(pyenv init -)"
 
-xdotool mouseup 2
+#xdotool mouseup 2
