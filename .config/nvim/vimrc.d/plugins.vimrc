@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'github/copilot.vim'
+" Plug 'github/copilot.vim'
 
 " Wakatime
 " Plug 'wakatime/vim-wakatime'
