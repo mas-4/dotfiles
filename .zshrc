@@ -15,7 +15,7 @@ source $ZSH/oh-my-zsh.sh
 alias l='ls -F'
 
 setopt HIST_IGNORE_SPACE
-xbindkeys -p
+# xbindkeys -p
 
 eval "$(pyenv init -)"
 
