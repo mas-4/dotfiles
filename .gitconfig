@@ -23,3 +23,5 @@
     insteadOf = mbs:
 [init]
 	defaultBranch = main
+[branch]
+	autosetupmerge = always

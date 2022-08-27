@@ -5,7 +5,7 @@ alias cp='cp -iv'
 alias mv='mv -iv'
 alias rmdir='rmdir -v'
 alias ln='ln -v'
-alias ls='ls --color=auto --group-directories-first -Fh'
+alias ls='ls --color=auto -Fh'
 alias grep='grep --color=auto'
 alias rmf='rm -rfI'
 
