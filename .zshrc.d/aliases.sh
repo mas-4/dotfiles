@@ -96,7 +96,7 @@ alias cancelspider="curl http://${spider}/cancel.json -d project=newscrawler -d"
 
 alias histstats="history | awk '{CMD[\$2]++;count++;}END { for (a in CMD)print CMD[a] \" \" CMD[a]/count*100 \"% \" a;}' | grep -v './' | column -c3 -s ' ' -t | sort -nr | nl |  head -n10"
 
-alias led='hledger --strict'
+alias led='hledger'
 alias balance="led balance Assets:Investments Assets:Privacy Assets:People Assets:Savings Assets:Checking Liabilities receivables:onto --value now"
 alias budget="led --empty bal ^assets:budget --auto"
 
@@ -114,4 +114,4 @@ to() {
 
 alias findopenssh='sudo nmap -p 22 192.168.0.0/24'
 
-alias syncebooks='rsync -azP ~/documents/server pi@192.168.0.74:/home/pi/server/'
+alias syncebooks='rsync -azP --update ~/documents/server pi@192.168.0.74:/home/pi/server/'
