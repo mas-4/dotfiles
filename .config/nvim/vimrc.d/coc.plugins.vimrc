@@ -3,7 +3,7 @@ let g:coc_global_extensions = [
     \ 'coc-cspell-dicts',
     \ 'coc-css',
     \ 'coc-go',
-    \ 'coc-html',
+    \ 'coc-zls',
     \ 'coc-json',
     \ 'coc-prettier',
     \ 'coc-pyright',
