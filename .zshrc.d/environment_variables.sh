@@ -5,4 +5,4 @@ export PASSWORD_STORE_ENABLE_EXTENSIONS=true
 export GPG_TTY=$(tty)
 export ZSH=$HOME/.oh-my-zsh
 export PATH=$HOME/bin:$PATH
-export LEDGER_FILE=$HOME/documents/wiki/fin/journal.ldg
+export LEDGER_FILE=$HOME/Documents/wiki/fin/journal.ldg

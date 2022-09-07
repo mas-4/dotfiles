@@ -20,3 +20,6 @@ setopt HIST_IGNORE_SPACE
 eval "$(pyenv init -)"
 
 #xdotool mouseup 2
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
