@@ -71,5 +71,6 @@
   "prettier.proseWrap": "always",
   "python.linting.mypyEnabled": true,
   "python.formatting.provider": "black",
-  "python.formatting.blackPath": "/usr/bin/black"
+  "python.formatting.blackPath": "/usr/bin/black",
+
 }

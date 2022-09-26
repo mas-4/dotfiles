@@ -2,6 +2,7 @@ let g:coc_global_extensions = [
     \ 'coc-clangd',
     \ 'coc-cspell-dicts',
     \ 'coc-css',
+    \ 'coc-zls',
     \ 'coc-go',
     \ 'coc-html',
     \ 'coc-json',

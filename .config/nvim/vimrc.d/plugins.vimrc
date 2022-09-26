@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
-" Plug 'github/copilot.vim'
+Plug 'github/copilot.vim'
 
 " Wakatime
 " Plug 'wakatime/vim-wakatime'
@@ -14,6 +14,7 @@ Plug 'luochen1990/rainbow'                                  " rainbow parenthesi
 Plug 'gregsexton/MatchTag'                                  " highlight matching html tags
 Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 Plug 'lepture/vim-jinja'
+Plug 'ziglang/zig.vim'
 
 " Special syntaxes
 Plug 'stevearc/vim-arduino'
